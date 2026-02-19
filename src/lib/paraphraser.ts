@@ -182,7 +182,7 @@ ${emotionalContext ? `The person seems to be feeling: ${emotionalContext}` : ''}
 
 Respond ONLY with the follow-up question, nothing else.`;
 
-  const response = await groq.chatCompletion([
+  const response = await groq.chat([
     { role: 'system', content: systemPrompt },
     { role: 'user', content: `Rephrase this into a reflective question: "${text}"` },
   ], {
@@ -190,7 +190,7 @@ Respond ONLY with the follow-up question, nothing else.`;
     temperature: 0.7,
   });
 
-  return response.content;
+  return response;
 }
 
 /**
