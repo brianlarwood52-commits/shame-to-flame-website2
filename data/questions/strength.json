@@ -1,0 +1,102 @@
+{
+  "subject_id": "strength",
+  "subject_name": "Strength & Courage",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "strength_01",
+      "text": "Where in your life do you feel you need more strength right now?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Isaiah 40:31",
+      "verse_text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+      "follow_up_hints": ["Identify need", "Renewed strength", "Wait on the Lord"]
+    },
+    {
+      "id": "strength_02",
+      "text": "When you feel weak, how do you usually respond?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "2 Corinthians 12:9",
+      "verse_text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.",
+      "follow_up_hints": ["Weakness patterns", "Grace sufficient", "Strength in weakness"]
+    },
+    {
+      "id": "strength_03",
+      "text": "Is there something you're facing that feels too big for you?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Philippians 4:13",
+      "verse_text": "I can do all things through Christ which strengtheneth me.",
+      "follow_up_hints": ["Overwhelming situations", "All things through Christ", "He strengthens"]
+    },
+    {
+      "id": "strength_04",
+      "text": "What gives you courage when you're afraid?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Deuteronomy 31:6",
+      "verse_text": "Be strong and of a good courage, fear not, nor be afraid of them: for the LORD thy God, he it is that doth go with thee; he will not fail thee, nor forsake thee.",
+      "follow_up_hints": ["Source of courage", "God goes with you", "Never fails or forsakes"]
+    },
+    {
+      "id": "strength_05",
+      "text": "Can you think of a time when you were stronger than you thought you could be?",
+      "tier": "standard",
+      "value": 3,
+      "verse_reference": "Psalm 18:32",
+      "verse_text": "It is God that girdeth me with strength, and maketh my way perfect.",
+      "follow_up_hints": ["Build on testimony", "God girded strength", "Made way perfect"]
+    },
+    {
+      "id": "strength_06",
+      "text": "What would you attempt if you truly believed God was fighting for you?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Exodus 14:14",
+      "verse_text": "The LORD shall fight for you, and ye shall hold your peace.",
+      "follow_up_hints": ["Remove fear", "He fights for you", "You hold peace"]
+    },
+    {
+      "id": "strength_07",
+      "text": "Is there a battle you've been fighting alone that you need to surrender to God?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "2 Chronicles 20:15",
+      "verse_text": "And he said, Hearken ye, all Judah, and ye inhabitants of Jerusalem, and thou king Jehoshaphat, Thus saith the LORD unto you, Be not afraid nor dismayed by reason of this great multitude; for the battle is not yours, but God's.",
+      "follow_up_hints": ["Alone in battle", "Battle is God's", "Not afraid of multitude"]
+    },
+    {
+      "id": "strength_08",
+      "text": "How do you maintain courage when the situation doesn't change?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Joshua 1:9",
+      "verse_text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+      "follow_up_hints": ["Endurance", "Commanded courage", "Wherever you go"]
+    },
+    {
+      "id": "strength_09",
+      "text": "What does it mean to you that God's power is made perfect in weakness?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "2 Corinthians 12:10",
+      "verse_text": "Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ's sake: for when I am weak, then am I strong.",
+      "follow_up_hints": ["Paradox of weakness", "Pleasure in weakness", "Weak = strong"]
+    },
+    {
+      "id": "strength_10",
+      "text": "Would you like to receive strength from Scripture for your battle?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "Nehemiah 8:10",
+      "verse_text": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength.",
+      "follow_up_hints": ["Receiving moment", "Joy of Lord", "Strength through joy"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["strength_01", "strength_03"],
+    "victory_emphasis": ["strength_06", "strength_10"]
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "version": "nasb",
+  "name": "New American Standard Bible",
+  "abbreviation": "NASB",
+  "language": "en",
+  "year": 1971,
+  "description": "The New American Standard Bible is an English translation of the Bible, widely regarded as one of the most literal translations available.",
+  "copyright": "Copyright 1995 The Lockman Foundation",
+  "isComplete": false,
+  "booksAvailable": ["john"],
+  "lastUpdated": "2026-01-31"
+}

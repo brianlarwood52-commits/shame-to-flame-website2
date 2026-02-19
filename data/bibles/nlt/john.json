@@ -1,0 +1,19 @@
+﻿{
+  "book": "john",
+  "name": "John",
+  "version": "nlt",
+  "versionName": "New Living Translation",
+  "chapters": {
+    "1": {
+      "1": "In the beginning the Word already existed. The Word was with God, and the Word was God.",
+      "14": "So the Word became human and made his home among us. He was full of unfailing love and faithfulness. And we have seen his glory, the glory of the Father's one and only Son."
+    },
+    "3": {
+      "16": "For this is how God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life.",
+      "17": "God sent his Son into the world not to judge the world, but to save the world through him."
+    }
+  },
+  "totalChapters": 21,
+  "isComplete": false,
+  "sampleOnly": true
+}

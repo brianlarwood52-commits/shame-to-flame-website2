@@ -1,0 +1,102 @@
+{
+  "subject_id": "healing",
+  "subject_name": "Healing & Restoration",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "healing_01",
+      "text": "What area of your life needs healing the most - physical, emotional, or spiritual?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Jeremiah 17:14",
+      "verse_text": "Heal me, O LORD, and I shall be healed; save me, and I shall be saved: for thou art my praise.",
+      "follow_up_hints": ["Identify the need", "He heals completely", "Salvation and healing"]
+    },
+    {
+      "id": "healing_02",
+      "text": "Is there a wound you've been carrying for a long time?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Psalm 147:3",
+      "verse_text": "He healeth the broken in heart, and bindeth up their wounds.",
+      "follow_up_hints": ["Old wounds matter", "He binds wounds", "Broken hearts healed"]
+    },
+    {
+      "id": "healing_03",
+      "text": "Do you believe God wants to heal you?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "3 John 1:2",
+      "verse_text": "Beloved, I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth.",
+      "follow_up_hints": ["God's desire for us", "Health and prosperity", "Soul and body"]
+    },
+    {
+      "id": "healing_04",
+      "text": "What would your life look like if you were completely healed?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Isaiah 53:5",
+      "verse_text": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.",
+      "follow_up_hints": ["Envision healing", "By His stripes", "Already paid for"]
+    },
+    {
+      "id": "healing_05",
+      "text": "Have you ever experienced God's healing touch?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Mark 5:34",
+      "verse_text": "And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.",
+      "follow_up_hints": ["Build on testimony", "Faith and wholeness", "Go in peace"]
+    },
+    {
+      "id": "healing_06",
+      "text": "Is there something you need to release in order to receive healing?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Mark 2:5",
+      "verse_text": "When Jesus saw their faith, he said unto the sick of the palsy, Son, thy sins be forgiven thee.",
+      "follow_up_hints": ["Release for receiving", "Sin and sickness connection", "Forgiveness and healing"]
+    },
+    {
+      "id": "healing_07",
+      "text": "How do you feel about the timing of God's healing?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Ecclesiastes 3:3",
+      "verse_text": "A time to kill, and a time to heal; a time to break down, and a time to build up.",
+      "follow_up_hints": ["God's timing", "A time to heal", "Trust the process"]
+    },
+    {
+      "id": "healing_08",
+      "text": "What if healing looks different than you expected?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "2 Corinthians 4:16",
+      "verse_text": "For which cause we faint not; but though our outward man perish, yet the inward man is renewed day by day.",
+      "follow_up_hints": ["Inner renewal", "Day by day", "Don't faint"]
+    },
+    {
+      "id": "healing_09",
+      "text": "Is there someone you need to forgive as part of your healing journey?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "James 5:16",
+      "verse_text": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
+      "follow_up_hints": ["Forgiveness and healing", "Confession and prayer", "Prayer avails much"]
+    },
+    {
+      "id": "healing_10",
+      "text": "Would you like to bring your need for healing to God together right now?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Psalm 103:2-3",
+      "verse_text": "Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases.",
+      "follow_up_hints": ["Present to God", "Forget not benefits", "ALL thy diseases"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["healing_01", "healing_03"],
+    "victory_emphasis": ["healing_04", "healing_10"]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "subject_id": "brokenness",
+  "subject_name": "Brokenness & Surrender",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "brokenness_01",
+      "text": "What in your life feels most broken right now?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Psalm 34:18",
+      "verse_text": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.",
+      "follow_up_hints": ["Safe to share brokenness", "God is NEAR", "Contrite spirit saved"]
+    },
+    {
+      "id": "brokenness_02",
+      "text": "Do you feel like you need to have it all together before coming to God?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Psalm 51:17",
+      "verse_text": "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise.",
+      "follow_up_hints": ["Come as you are", "Broken is acceptable", "He won't despise"]
+    },
+    {
+      "id": "brokenness_03",
+      "text": "Is there something you've been holding onto that you need to surrender?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Matthew 16:25",
+      "verse_text": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it.",
+      "follow_up_hints": ["Identify what to release", "Losing to find", "For His sake"]
+    },
+    {
+      "id": "brokenness_04",
+      "text": "What would it look like to completely surrender this area to God?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Romans 12:1",
+      "verse_text": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.",
+      "follow_up_hints": ["Envision surrender", "Living sacrifice", "Reasonable service"]
+    },
+    {
+      "id": "brokenness_05",
+      "text": "Have you ever seen God use someone's brokenness for good?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "2 Corinthians 4:7",
+      "verse_text": "But we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.",
+      "follow_up_hints": ["Brokenness used", "Earthen vessels", "God's power shown"]
+    },
+    {
+      "id": "brokenness_06",
+      "text": "What are you afraid of losing if you surrender completely?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Philippians 3:8",
+      "verse_text": "Yea doubtless, and I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I have suffered the loss of all things, and do count them but dung, that I may win Christ.",
+      "follow_up_hints": ["Fear of loss", "All things loss for Christ", "Win Christ instead"]
+    },
+    {
+      "id": "brokenness_07",
+      "text": "How might God want to put you back together differently than before?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Jeremiah 18:4",
+      "verse_text": "And the vessel that he made of clay was marred in the hand of the potter: so he made it again another vessel, as seemed good to the potter to make it.",
+      "follow_up_hints": ["Remade by Potter", "Another vessel", "Good to the Potter"]
+    },
+    {
+      "id": "brokenness_08",
+      "text": "Is there beauty that's come from a past season of brokenness?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Isaiah 61:3",
+      "verse_text": "To appoint unto them that mourn in Zion, to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness; that they might be called trees of righteousness, the planting of the LORD, that he might be glorified.",
+      "follow_up_hints": ["Beauty for ashes", "Joy for mourning", "He gets glory"]
+    },
+    {
+      "id": "brokenness_09",
+      "text": "What would it feel like to stop trying so hard and just rest in God's hands?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Matthew 11:28-29",
+      "verse_text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls.",
+      "follow_up_hints": ["Rest from striving", "Heavy laden welcome", "Soul rest"]
+    },
+    {
+      "id": "brokenness_10",
+      "text": "Would you like to offer your brokenness to God right now as an act of worship?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "Psalm 147:3",
+      "verse_text": "He healeth the broken in heart, and bindeth up their wounds.",
+      "follow_up_hints": ["Worship in brokenness", "He heals", "Binds wounds"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["brokenness_01", "brokenness_02"],
+    "victory_emphasis": ["brokenness_08", "brokenness_10"]
+  }
+}

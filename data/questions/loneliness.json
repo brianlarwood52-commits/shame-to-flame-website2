@@ -1,0 +1,102 @@
+{
+  "subject_id": "loneliness",
+  "subject_name": "Loneliness & Isolation",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "loneliness_01",
+      "text": "When do you feel most alone?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Hebrews 13:5",
+      "verse_text": "Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee.",
+      "follow_up_hints": ["Specific times matter", "Never leave nor forsake", "He's there in those moments"]
+    },
+    {
+      "id": "loneliness_02",
+      "text": "Do you feel lonely even when you're surrounded by people?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Psalm 142:4",
+      "verse_text": "I looked on my right hand, and beheld, but there was no man that would know me: refuge failed me; no man cared for my soul.",
+      "follow_up_hints": ["David felt this too", "Crowds don't cure loneliness", "Soul-level connection needed"]
+    },
+    {
+      "id": "loneliness_03",
+      "text": "Is there someone you wish you could connect with more deeply?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Ecclesiastes 4:9-10",
+      "verse_text": "Two are better than one; because they have a good reward for their labour. For if they fall, the one will lift up his fellow: but woe to him that is alone when he falleth; for he hath not another to help him up.",
+      "follow_up_hints": ["Desire for connection is healthy", "Two are better than one", "God designed us for relationship"]
+    },
+    {
+      "id": "loneliness_04",
+      "text": "What makes it hard for you to reach out to others?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "1 John 4:18",
+      "verse_text": "There is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.",
+      "follow_up_hints": ["Barriers are real", "Fear can be cast out", "Love overcomes"]
+    },
+    {
+      "id": "loneliness_05",
+      "text": "Have you experienced times when God felt especially close?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "James 4:8",
+      "verse_text": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded.",
+      "follow_up_hints": ["Recall His presence", "He draws near", "Mutual drawing close"]
+    },
+    {
+      "id": "loneliness_06",
+      "text": "What would meaningful community look like for you?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "Acts 2:42",
+      "verse_text": "And they continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers.",
+      "follow_up_hints": ["Envision community", "Fellowship is biblical", "Shared life together"]
+    },
+    {
+      "id": "loneliness_07",
+      "text": "Is there one person you could reach out to this week?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Galatians 6:2",
+      "verse_text": "Bear ye one another's burdens, and so fulfil the law of Christ.",
+      "follow_up_hints": ["Small step matters", "Mutual burden bearing", "Initiative blessed"]
+    },
+    {
+      "id": "loneliness_08",
+      "text": "How do you experience God's presence when you're alone?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Matthew 28:20",
+      "verse_text": "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.",
+      "follow_up_hints": ["Solitude vs loneliness", "With you ALWAYS", "To the end of the world"]
+    },
+    {
+      "id": "loneliness_09",
+      "text": "What activities make you feel connected - to God, to nature, to yourself?",
+      "tier": "gentle",
+      "value": 1,
+      "verse_reference": "Psalm 139:7-10",
+      "verse_text": "Whither shall I go from thy spirit? or whither shall I flee from thy presence? If I ascend up into heaven, thou art there: if I make my bed in hell, behold, thou art there. If I take the wings of the morning, and dwell in the uttermost parts of the sea; Even there shall thy hand lead me, and thy right hand shall hold me.",
+      "follow_up_hints": ["Find connection points", "Nowhere without God", "His hand leads and holds"]
+    },
+    {
+      "id": "loneliness_10",
+      "text": "Would you like to sit together in silence for a moment, knowing you're not alone right now?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Psalm 46:10",
+      "verse_text": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.",
+      "follow_up_hints": ["Presence ministry", "Be still and know", "Right now matters"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "growth", "growth"],
+    "crisis_fallback": ["loneliness_01", "loneliness_09"],
+    "victory_emphasis": ["loneliness_06", "loneliness_10"]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "subject_id": "addiction",
+  "subject_name": "Addiction & Freedom",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "addiction_01",
+      "text": "Is there something in your life that has more control over you than you'd like?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "John 8:36",
+      "verse_text": "If the Son therefore shall make you free, ye shall be free indeed.",
+      "follow_up_hints": ["No judgment", "Free indeed promise", "Son sets free"]
+    },
+    {
+      "id": "addiction_02",
+      "text": "What does freedom from this struggle look like in your imagination?",
+      "tier": "gentle",
+      "value": 1,
+      "verse_reference": "Galatians 5:1",
+      "verse_text": "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.",
+      "follow_up_hints": ["Envision freedom", "Liberty in Christ", "No more entanglement"]
+    },
+    {
+      "id": "addiction_03",
+      "text": "What triggers make the temptation hardest to resist?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "1 Corinthians 10:13",
+      "verse_text": "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
+      "follow_up_hints": ["Identify triggers", "Way of escape exists", "God is faithful"]
+    },
+    {
+      "id": "addiction_04",
+      "text": "Have you found any strategies that help you resist, even temporarily?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "James 4:7",
+      "verse_text": "Submit yourselves therefore to God. Resist the devil, and he will flee from you.",
+      "follow_up_hints": ["Build on what works", "Submit then resist", "Devil flees"]
+    },
+    {
+      "id": "addiction_05",
+      "text": "Do you believe God still loves you in the middle of this struggle?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Romans 8:38-39",
+      "verse_text": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+      "follow_up_hints": ["Nothing separates", "Even this struggle", "Love remains"]
+    },
+    {
+      "id": "addiction_06",
+      "text": "What void or pain might this habit be trying to fill?",
+      "tier": "standard",
+      "value": -2,
+      "verse_reference": "Psalm 107:9",
+      "verse_text": "For he satisfieth the longing soul, and filleth the hungry soul with goodness.",
+      "follow_up_hints": ["Root issues matter", "He satisfies longing", "Goodness fills"]
+    },
+    {
+      "id": "addiction_07",
+      "text": "Is there someone you trust enough to be accountable to?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "James 5:16",
+      "verse_text": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
+      "follow_up_hints": ["Accountability helps", "Confession brings healing", "Prayer avails much"]
+    },
+    {
+      "id": "addiction_08",
+      "text": "What would you do with your life if this chain was broken?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Isaiah 61:1",
+      "verse_text": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound.",
+      "follow_up_hints": ["Freedom for purpose", "Liberty proclaimed", "Prison doors open"]
+    },
+    {
+      "id": "addiction_09",
+      "text": "Can you remember a time when you felt truly free? What was that like?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Psalm 32:7",
+      "verse_text": "Thou art my hiding place; thou shalt preserve me from trouble; thou shalt compass me about with songs of deliverance.",
+      "follow_up_hints": ["Remember freedom", "Songs of deliverance", "It's possible again"]
+    },
+    {
+      "id": "addiction_10",
+      "text": "Would you like to pray together for God's power to break this hold?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "2 Corinthians 12:9",
+      "verse_text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.",
+      "follow_up_hints": ["Grace sufficient", "Strength in weakness", "Power of Christ"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["addiction_01", "addiction_05"],
+    "victory_emphasis": ["addiction_08", "addiction_10"]
+  }
+}

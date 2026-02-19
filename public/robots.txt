@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Primary Domain Sitemap
+Sitemap: https://shametoflame.faith/sitemap.xml
+
+# Netlify Preview Domain Sitemap
+Sitemap: https://incomparable-florentine-721a63.netlify.app/sitemap.xml

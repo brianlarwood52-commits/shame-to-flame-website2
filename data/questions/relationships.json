@@ -1,0 +1,102 @@
+{
+  "subject_id": "relationships",
+  "subject_name": "Relationships & Connection",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "relationships_01",
+      "text": "What relationship in your life brings you the most joy?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "Proverbs 17:17",
+      "verse_text": "A friend loveth at all times, and a brother is born for adversity.",
+      "follow_up_hints": ["Celebrate good relationships", "Love at all times", "Born for adversity"]
+    },
+    {
+      "id": "relationships_02",
+      "text": "Is there a relationship that's causing you pain right now?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Proverbs 18:24",
+      "verse_text": "A man that hath friends must shew himself friendly: and there is a friend that sticketh closer than a brother.",
+      "follow_up_hints": ["Safe to share pain", "True friendship", "Jesus sticks closest"]
+    },
+    {
+      "id": "relationships_03",
+      "text": "Do you find it hard to trust people?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Proverbs 3:5",
+      "verse_text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
+      "follow_up_hints": ["Trust issues are common", "Trust God first", "He helps us trust others"]
+    },
+    {
+      "id": "relationships_04",
+      "text": "How do you handle conflict in relationships?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Ephesians 4:26-27",
+      "verse_text": "Be ye angry, and sin not: let not the sun go down upon your wrath: Neither give place to the devil.",
+      "follow_up_hints": ["Conflict patterns", "Resolve quickly", "Don't let it linger"]
+    },
+    {
+      "id": "relationships_05",
+      "text": "Is there someone you need to forgive or ask forgiveness from?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Matthew 5:23-24",
+      "verse_text": "Therefore if thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee; Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift.",
+      "follow_up_hints": ["Reconciliation priority", "Before worship", "Go and be reconciled"]
+    },
+    {
+      "id": "relationships_06",
+      "text": "What does a healthy relationship look like to you?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "1 Corinthians 13:4-7",
+      "verse_text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up, Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil; Rejoiceth not in iniquity, but rejoiceth in the truth; Beareth all things, believeth all things, hopeth all things, endureth all things.",
+      "follow_up_hints": ["Love defined", "Characteristics of love", "Healthy standard"]
+    },
+    {
+      "id": "relationships_07",
+      "text": "How is your relationship with God affecting your relationships with others?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "1 John 4:20",
+      "verse_text": "If a man say, I love God, and hateth his brother, he is a liar: for he that loveth not his brother whom he hath seen, how can he love God whom he hath not seen?",
+      "follow_up_hints": ["Vertical affects horizontal", "Love flows down and out", "Connected loves"]
+    },
+    {
+      "id": "relationships_08",
+      "text": "What boundaries might you need to set to protect your peace?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "Proverbs 4:23",
+      "verse_text": "Keep thy heart with all diligence; for out of it are the issues of life.",
+      "follow_up_hints": ["Boundaries are biblical", "Guard your heart", "Diligent protection"]
+    },
+    {
+      "id": "relationships_09",
+      "text": "What would restoration look like in a broken relationship?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Romans 12:18",
+      "verse_text": "If it be possible, as much as lieth in you, live peaceably with all men.",
+      "follow_up_hints": ["Envision restoration", "As much as in you", "Peace if possible"]
+    },
+    {
+      "id": "relationships_10",
+      "text": "Would you like to pray together for a specific relationship?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Matthew 18:20",
+      "verse_text": "For where two or three are gathered together in my name, there am I in the midst of them.",
+      "follow_up_hints": ["Prayer for relationships", "Jesus in the midst", "Gathered prayer powerful"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["relationships_01", "relationships_03"],
+    "victory_emphasis": ["relationships_06", "relationships_10"]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "subject_id": "purpose",
+  "subject_name": "Purpose & Calling",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "purpose_01",
+      "text": "Do you feel a sense of purpose in your life right now?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Jeremiah 29:11",
+      "verse_text": "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil, to give you an expected end.",
+      "follow_up_hints": ["Current sense", "God has thoughts for you", "Expected end - hope"]
+    },
+    {
+      "id": "purpose_02",
+      "text": "What activities make you lose track of time because you're so engaged?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "Ephesians 2:10",
+      "verse_text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+      "follow_up_hints": ["Flow state", "Created for works", "Ordained beforehand"]
+    },
+    {
+      "id": "purpose_03",
+      "text": "Is there something you've always felt called to do but haven't pursued?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Proverbs 16:9",
+      "verse_text": "A man's heart deviseth his way: but the LORD directeth his steps.",
+      "follow_up_hints": ["Hidden callings", "Heart devises", "God directs"]
+    },
+    {
+      "id": "purpose_04",
+      "text": "What gifts or talents do others recognize in you?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "1 Peter 4:10",
+      "verse_text": "As every man hath received the gift, even so minister the same one to another, as good stewards of the manifold grace of God.",
+      "follow_up_hints": ["Others see gifts", "Minister gifts", "Stewards of grace"]
+    },
+    {
+      "id": "purpose_05",
+      "text": "If money and fear weren't factors, what would you do with your life?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Romans 12:6",
+      "verse_text": "Having then gifts differing according to the grace that is given to us, whether prophecy, let us prophesy according to the proportion of faith.",
+      "follow_up_hints": ["Remove barriers", "Gifts given by grace", "Use in proportion to faith"]
+    },
+    {
+      "id": "purpose_06",
+      "text": "How do you think God might want to use your past - even the painful parts?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "2 Corinthians 1:4",
+      "verse_text": "Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God.",
+      "follow_up_hints": ["Pain as purpose", "Comfort for comforting", "Nothing wasted"]
+    },
+    {
+      "id": "purpose_07",
+      "text": "What breaks your heart when you see it in the world?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Matthew 9:36",
+      "verse_text": "But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd.",
+      "follow_up_hints": ["Compassion points to calling", "Jesus moved with compassion", "What moves you"]
+    },
+    {
+      "id": "purpose_08",
+      "text": "Is there a step of obedience you've been putting off?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "Isaiah 6:8",
+      "verse_text": "Also I heard the voice of the Lord, saying, Whom shall I send, and who will go for us? Then said I, Here am I; send me.",
+      "follow_up_hints": ["Obedience clarifies", "Here am I", "Willing to be sent"]
+    },
+    {
+      "id": "purpose_09",
+      "text": "What would it mean to bloom where you're planted right now?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Colossians 3:23",
+      "verse_text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men.",
+      "follow_up_hints": ["Current place matters", "Do heartily", "Unto the Lord"]
+    },
+    {
+      "id": "purpose_10",
+      "text": "Would you like to ask God together to reveal more of your purpose?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Psalm 32:8",
+      "verse_text": "I will instruct thee and teach thee in the way which thou shalt go: I will guide thee with mine eye.",
+      "follow_up_hints": ["Ask for revelation", "He instructs", "Guided by His eye"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["purpose_01", "purpose_04"],
+    "victory_emphasis": ["purpose_05", "purpose_10"]
+  }
+}

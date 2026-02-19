@@ -1,0 +1,102 @@
+{
+  "subject_id": "fear",
+  "subject_name": "Fear & Anxiety",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "fear_01",
+      "text": "What is the fear that keeps you up at night?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Psalm 4:8",
+      "verse_text": "I will both lay me down in peace, and sleep: for thou, LORD, only makest me dwell in safety.",
+      "follow_up_hints": ["Safe space to name fear", "God gives peaceful sleep", "He makes us dwell in safety"]
+    },
+    {
+      "id": "fear_02",
+      "text": "When you feel anxious, where do you feel it in your body?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Psalm 94:19",
+      "verse_text": "In the multitude of my thoughts within me thy comforts delight my soul.",
+      "follow_up_hints": ["Mind-body connection", "Many thoughts, God's comfort", "Delight in midst of anxiety"]
+    },
+    {
+      "id": "fear_03",
+      "text": "Is there a specific situation you're dreading?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Isaiah 41:10",
+      "verse_text": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.",
+      "follow_up_hints": ["Specific fears can be addressed", "I AM with thee", "Triple promise: strengthen, help, uphold"]
+    },
+    {
+      "id": "fear_04",
+      "text": "What do you think is the root of your fear - what's the worst thing that could happen?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Romans 8:28",
+      "verse_text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+      "follow_up_hints": ["Get to the core fear", "All things work for good", "Called according to purpose"]
+    },
+    {
+      "id": "fear_05",
+      "text": "Has fear ever stopped you from doing something you knew God was calling you to?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "2 Timothy 1:7",
+      "verse_text": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.",
+      "follow_up_hints": ["Fear vs calling", "Spirit of power, love, sound mind", "Fear is not from God"]
+    },
+    {
+      "id": "fear_06",
+      "text": "What would you do differently if you weren't afraid?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Joshua 1:9",
+      "verse_text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+      "follow_up_hints": ["Envision freedom", "Command to courage", "Wherever you go"]
+    },
+    {
+      "id": "fear_07",
+      "text": "Can you remember a time when you faced a fear and God was faithful?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Psalm 23:4",
+      "verse_text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+      "follow_up_hints": ["Build on testimony", "Through the valley, not stuck", "Rod and staff comfort"]
+    },
+    {
+      "id": "fear_08",
+      "text": "How do you usually cope with anxiety - in healthy or unhealthy ways?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Philippians 4:6-7",
+      "verse_text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+      "follow_up_hints": ["No judgment", "Prayer and thanksgiving", "Peace that keeps hearts"]
+    },
+    {
+      "id": "fear_09",
+      "text": "If God said 'Do not fear' 365 times in the Bible - one for each day - which day's fear is yours today?",
+      "tier": "gentle",
+      "value": 1,
+      "verse_reference": "Psalm 56:3",
+      "verse_text": "What time I am afraid, I will trust in thee.",
+      "follow_up_hints": ["Daily reminder not to fear", "What TIME I am afraid", "Trust is the response"]
+    },
+    {
+      "id": "fear_10",
+      "text": "Would you like to surrender your fear to God together right now?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "1 Peter 5:7",
+      "verse_text": "Casting all your care upon him; for he careth for you.",
+      "follow_up_hints": ["Invitation to release", "Cast ALL your care", "He genuinely cares"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["fear_01", "fear_09"],
+    "victory_emphasis": ["fear_06", "fear_10"]
+  }
+}

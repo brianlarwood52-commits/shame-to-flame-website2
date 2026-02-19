@@ -1,0 +1,102 @@
+{
+  "subject_id": "selfworth",
+  "subject_name": "Self-Worth & Value",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "selfworth_01",
+      "text": "How do you feel about yourself most days?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Psalm 139:14",
+      "verse_text": "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well.",
+      "follow_up_hints": ["Honest self-perception", "Fearfully and wonderfully", "God's workmanship"]
+    },
+    {
+      "id": "selfworth_02",
+      "text": "Where did you first learn to doubt your worth?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Isaiah 43:4",
+      "verse_text": "Since thou wast precious in my sight, thou hast been honourable, and I have loved thee: therefore will I give men for thee, and people for thy life.",
+      "follow_up_hints": ["Origin of lies", "Precious in His sight", "Honourable and loved"]
+    },
+    {
+      "id": "selfworth_03",
+      "text": "What lies about yourself do you catch yourself believing?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "John 8:32",
+      "verse_text": "And ye shall know the truth, and the truth shall make you free.",
+      "follow_up_hints": ["Identify lies", "Truth sets free", "Replace with truth"]
+    },
+    {
+      "id": "selfworth_04",
+      "text": "Do you compare yourself to others often?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Galatians 6:4",
+      "verse_text": "But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another.",
+      "follow_up_hints": ["Comparison trap", "Own work matters", "Rejoice in yourself"]
+    },
+    {
+      "id": "selfworth_05",
+      "text": "What would you say to a friend who felt the way you do about yourself?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Matthew 22:39",
+      "verse_text": "And the second is like unto it, Thou shalt love thy neighbour as thyself.",
+      "follow_up_hints": ["Self-compassion", "Love self as neighbor", "Apply friend's advice to self"]
+    },
+    {
+      "id": "selfworth_06",
+      "text": "How does knowing you were created on purpose, for a purpose, affect you?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Ephesians 2:10",
+      "verse_text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+      "follow_up_hints": ["Intentional creation", "His workmanship", "Ordained works"]
+    },
+    {
+      "id": "selfworth_07",
+      "text": "What are three things you genuinely like about yourself?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "1 Corinthians 12:18",
+      "verse_text": "But now hath God set the members every one of them in the body, as it hath pleased him.",
+      "follow_up_hints": ["Celebrate gifts", "God pleased to make you", "Unique design"]
+    },
+    {
+      "id": "selfworth_08",
+      "text": "If you could see yourself through God's eyes, what do you think you'd see?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Song of Solomon 4:7",
+      "verse_text": "Thou art all fair, my love; there is no spot in thee.",
+      "follow_up_hints": ["God's perspective", "All fair in His eyes", "No spot - through Christ"]
+    },
+    {
+      "id": "selfworth_09",
+      "text": "What does it mean to you that Jesus died specifically for you?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Galatians 2:20",
+      "verse_text": "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.",
+      "follow_up_hints": ["Personal sacrifice", "Loved ME", "Gave Himself for ME"]
+    },
+    {
+      "id": "selfworth_10",
+      "text": "Would you like to declare God's truth about your value right now?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "1 Peter 2:9",
+      "verse_text": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light.",
+      "follow_up_hints": ["Declaration of worth", "Chosen, royal, holy", "Called into light"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["selfworth_01", "selfworth_05"],
+    "victory_emphasis": ["selfworth_08", "selfworth_10"]
+  }
+}

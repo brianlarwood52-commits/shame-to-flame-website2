@@ -1,0 +1,102 @@
+{
+  "subject_id": "faith",
+  "subject_name": "Faith & Trust",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "faith_01",
+      "text": "How would you describe your faith right now - strong, weak, or somewhere in between?",
+      "tier": "gentle",
+      "value": 1,
+      "verse_reference": "Mark 9:24",
+      "verse_text": "And straightway the father of the child cried out, and said with tears, Lord, I believe; help thou mine unbelief.",
+      "follow_up_hints": ["Honest assessment", "Help my unbelief", "Both can coexist"]
+    },
+    {
+      "id": "faith_02",
+      "text": "What situation is testing your faith the most right now?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "1 Peter 1:7",
+      "verse_text": "That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ.",
+      "follow_up_hints": ["Specific test", "Trial is precious", "Results in glory"]
+    },
+    {
+      "id": "faith_03",
+      "text": "Is there something you've been afraid to trust God with completely?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Proverbs 3:5-6",
+      "verse_text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.",
+      "follow_up_hints": ["Trust barriers", "All your heart", "He directs paths"]
+    },
+    {
+      "id": "faith_04",
+      "text": "Can you remember a time when God proved Himself faithful?",
+      "tier": "standard",
+      "value": 3,
+      "verse_reference": "Lamentations 3:22-23",
+      "verse_text": "It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.",
+      "follow_up_hints": ["Build on testimony", "Great faithfulness", "New every morning"]
+    },
+    {
+      "id": "faith_05",
+      "text": "What would it mean for you to take a 'faith step' right now?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Hebrews 11:1",
+      "verse_text": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+      "follow_up_hints": ["Action of faith", "Substance and evidence", "Hoped for, not seen"]
+    },
+    {
+      "id": "faith_06",
+      "text": "How do you handle doubts when they come?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "James 1:6",
+      "verse_text": "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.",
+      "follow_up_hints": ["Doubts are normal", "Ask in faith", "Steady in storms"]
+    },
+    {
+      "id": "faith_07",
+      "text": "Who in your life models strong faith? What do you notice about them?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Hebrews 12:1",
+      "verse_text": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us.",
+      "follow_up_hints": ["Learn from others", "Cloud of witnesses", "Run the race"]
+    },
+    {
+      "id": "faith_08",
+      "text": "If you knew God would catch you, what leap would you take?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Hebrews 11:6",
+      "verse_text": "But without faith it is impossible to please him: for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him.",
+      "follow_up_hints": ["Faith pleases God", "He rewards seekers", "Take the leap"]
+    },
+    {
+      "id": "faith_09",
+      "text": "What Scripture has anchored your faith during hard times?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Romans 10:17",
+      "verse_text": "So then faith cometh by hearing, and hearing by the word of God.",
+      "follow_up_hints": ["Word builds faith", "Faith by hearing", "Anchor verses"]
+    },
+    {
+      "id": "faith_10",
+      "text": "Would you like to declare your trust in God together right now?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "Psalm 56:3-4",
+      "verse_text": "What time I am afraid, I will trust in thee. In God I will praise his word, in God I have put my trust; I will not fear what flesh can do unto me.",
+      "follow_up_hints": ["Declaration of trust", "Even when afraid", "No fear of man"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["faith_01", "faith_04"],
+    "victory_emphasis": ["faith_08", "faith_10"]
+  }
+}

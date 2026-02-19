@@ -1,0 +1,102 @@
+{
+  "subject_id": "identity",
+  "subject_name": "Identity in Christ",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "identity_01",
+      "text": "How would you describe yourself in three words?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Psalm 139:14",
+      "verse_text": "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well.",
+      "follow_up_hints": ["Listen for self-perception", "Fearfully and wonderfully", "God's workmanship"]
+    },
+    {
+      "id": "identity_02",
+      "text": "Where does your sense of worth come from - achievements, relationships, or something else?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Ephesians 2:10",
+      "verse_text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+      "follow_up_hints": ["Source of worth matters", "His workmanship", "Created for purpose"]
+    },
+    {
+      "id": "identity_03",
+      "text": "Do the voices in your head about who you are sound more like God or like your critics?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Romans 8:16",
+      "verse_text": "The Spirit itself beareth witness with our spirit, that we are the children of God.",
+      "follow_up_hints": ["Identify the voices", "Spirit bears witness", "Children of God identity"]
+    },
+    {
+      "id": "identity_04",
+      "text": "If you could change one thing about how you see yourself, what would it be?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "2 Corinthians 3:18",
+      "verse_text": "But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory, even as by the Spirit of the Lord.",
+      "follow_up_hints": ["Transformation desire", "Changed by beholding", "Glory to glory"]
+    },
+    {
+      "id": "identity_05",
+      "text": "What labels have others put on you that you've struggled to shake off?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Isaiah 43:1",
+      "verse_text": "But now thus saith the LORD that created thee, O Jacob, and he that formed thee, O Israel, Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.",
+      "follow_up_hints": ["Others' labels hurt", "God calls you by name", "You are HIS"]
+    },
+    {
+      "id": "identity_06",
+      "text": "How does knowing God chose you before creation affect how you see yourself?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Ephesians 1:4-5",
+      "verse_text": "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love: Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will.",
+      "follow_up_hints": ["Chosen before foundation", "Adopted as children", "His good pleasure"]
+    },
+    {
+      "id": "identity_07",
+      "text": "What gifts or abilities do you have that you sometimes downplay or dismiss?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "1 Corinthians 12:7",
+      "verse_text": "But the manifestation of the Spirit is given to every man to profit withal.",
+      "follow_up_hints": ["Gifts matter", "Given to everyone", "For mutual profit"]
+    },
+    {
+      "id": "identity_08",
+      "text": "If God wrote a letter about who you really are, what do you think it would say?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "1 Peter 2:9",
+      "verse_text": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light.",
+      "follow_up_hints": ["God's perspective", "Chosen, royal, holy, peculiar", "Called into light"]
+    },
+    {
+      "id": "identity_09",
+      "text": "In what ways do you feel you're becoming more like Christ?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Philippians 1:6",
+      "verse_text": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ.",
+      "follow_up_hints": ["Celebrate growth", "He began it", "He will complete it"]
+    },
+    {
+      "id": "identity_10",
+      "text": "Would you like to declare together who God says you are?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "Colossians 3:3",
+      "verse_text": "For ye are dead, and your life is hid with Christ in God.",
+      "follow_up_hints": ["Speaking truth aloud", "Life hidden in Christ", "Declaration powerful"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "standard", "standard", "growth", "growth"],
+    "crisis_fallback": ["identity_01", "identity_02"],
+    "victory_emphasis": ["identity_08", "identity_10"]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "subject_id": "peace",
+  "subject_name": "Peace & Rest",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "peace_01",
+      "text": "What does peace feel like to you when you experience it?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "John 14:27",
+      "verse_text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
+      "follow_up_hints": ["Their experience matters", "Christ's peace different", "Heart untroubled"]
+    },
+    {
+      "id": "peace_02",
+      "text": "What keeps your mind from resting?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Isaiah 26:3",
+      "verse_text": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.",
+      "follow_up_hints": ["Identify restlessness", "Perfect peace possible", "Mind stayed on Him"]
+    },
+    {
+      "id": "peace_03",
+      "text": "When was the last time you felt truly at rest?",
+      "tier": "gentle",
+      "value": 1,
+      "verse_reference": "Matthew 11:28-30",
+      "verse_text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light.",
+      "follow_up_hints": ["Remember rest", "Come unto me", "Rest for souls"]
+    },
+    {
+      "id": "peace_04",
+      "text": "Do you feel like you're constantly carrying a heavy load?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Psalm 55:22",
+      "verse_text": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved.",
+      "follow_up_hints": ["Burden acknowledged", "Cast on God", "He sustains"]
+    },
+    {
+      "id": "peace_05",
+      "text": "What would it look like to truly surrender your worries to God?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "1 Peter 5:7",
+      "verse_text": "Casting all your care upon him; for he careth for you.",
+      "follow_up_hints": ["Envision surrender", "ALL your care", "He cares for you"]
+    },
+    {
+      "id": "peace_06",
+      "text": "Is there something you need to let go of to find peace?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Philippians 4:6-7",
+      "verse_text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+      "follow_up_hints": ["Identify what to release", "Prayer with thanksgiving", "Peace keeps hearts"]
+    },
+    {
+      "id": "peace_07",
+      "text": "How do you usually try to find peace - and does it work?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Romans 5:1",
+      "verse_text": "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ.",
+      "follow_up_hints": ["Their methods", "Peace WITH God through faith", "Foundation of peace"]
+    },
+    {
+      "id": "peace_08",
+      "text": "Is there a situation where you need to 'be still' and let God handle it?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Psalm 46:10",
+      "verse_text": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.",
+      "follow_up_hints": ["Specific stillness", "Know He is God", "He will be exalted"]
+    },
+    {
+      "id": "peace_09",
+      "text": "What would your life look like if you lived from peace rather than for peace?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Colossians 3:15",
+      "verse_text": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+      "follow_up_hints": ["Peace as starting point", "Let peace RULE", "Called to peace"]
+    },
+    {
+      "id": "peace_10",
+      "text": "Would you like to breathe deeply and receive God's peace right now?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "Numbers 6:26",
+      "verse_text": "The LORD lift up his countenance upon thee, and give thee peace.",
+      "follow_up_hints": ["Receiving moment", "God's face upon you", "Peace given"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "growth", "growth"],
+    "crisis_fallback": ["peace_01", "peace_03"],
+    "victory_emphasis": ["peace_09", "peace_10"]
+  }
+}

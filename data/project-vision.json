@@ -1,0 +1,189 @@
+{
+  "projectName": "Shame to Flame",
+  "missionStatement": "Shame to Flame exists to meet people at their moment of shame, walk them toward restored identity in Christ, and release them into independent obedience.",
+  "coreUserOutcome": "They feel less alone.",
+  "whatTheSiteIs": "A structured digital companion for the spiritually ashamed. That's the product. That's the function. It is also a guided habit-forming spiritual formation engine. NOT a blog, not a devotional repository, not a content site, not a preaching site. Training wheels, not dependency.",
+  "productDefinition": "A structured digital companion for the spiritually ashamed.",
+  "whatTheSiteIsNot": [
+    "A static Bible portal",
+    "A verse-of-the-day site",
+    "A digital tract",
+    "A blog",
+    "A sermon archive",
+    "A theology education portal",
+    "A social platform",
+    "A content feed"
+  ],
+
+  "autobiographicalContext": {
+    "revelation": "Shame to Flame is autobiography. It is the founder's own shedding of shame, his own redemption journey, his own becoming. He did not realise this until it was reflected back to him.",
+    "founderIdentity": "Adopted. Carries the wound of 'not really true family'. Exhausted from building, grieving unresolved relationships, carrying sexual shame, and navigating a calling into ministry while feeling disqualified.",
+    "theTrainingGround": "QC Technologies website was built over 2.5 months - teaching architecture, NLP integration, AI pipelines, JSON structure, deterministic retrieval. This matured the founder from emotion-first building to structure-first thinking. When he returned to the ministry prototypes, he froze because he'd outgrown them.",
+    "theFusion": "The dangerous pattern: 'If the ministry succeeds, reconciliation happens.' The sites must be built as if reconciliation is NOT the prize. Let it be a bonus, not the engine."
+  },
+
+  "fourProjectTrinitarianArc": {
+    "overview": "Four ministry projects that map to the Trinity and to three family relationships, with Shame to Flame representing the founder himself.",
+    "projects": [
+      {
+        "name": "Shame to Flame",
+        "trinityMapping": "Identity restored through Grace",
+        "familyMapping": "The founder himself",
+        "coreMovement": "Shame → Identity → Discipleship",
+        "spiritualAxis": "Restoration of self in God's sight",
+        "primaryWound": "Shame, sexual guilt, betrayal, misjudgment, adoption wound",
+        "archetype": "Mary Magdalene",
+        "audienceFocus": "Women, couples, people buried in self-loathing, anyone carrying shame",
+        "keyInsight": "Shame is not disqualification. Shame is reachability. Jesus came to seek and save the lost. He called sinners, not saints."
+      },
+      {
+        "name": "Learn Live Forgive",
+        "trinityMapping": "God the Father",
+        "familyMapping": "Cheryl",
+        "coreMovement": "Bitterness → Forgiveness → Father reconciliation",
+        "spiritualAxis": "Relationship with God the Father",
+        "primaryWound": "Father wounds, loss, anger at God",
+        "description": "For people like Cheryl who blame God - for the death of a father, a son, the disconnect with family, the loss of a marriage. 'If there's a God then fill in the blank.' Introducing the concept of living the life of forgiveness and understanding God the Father as the ultimate example of a father."
+      },
+      {
+        "name": "Running to God",
+        "trinityMapping": "God the Son (Jesus)",
+        "familyMapping": "Tracy",
+        "coreMovement": "Identity confusion → Christ-centred identity",
+        "spiritualAxis": "Jesus as true God and true Brother",
+        "primaryWound": "Exclusion, doctrinal distortion, belonging",
+        "description": "Based on Matthew 27-28 and the founder's 2024 road trip from Perth to Port Lincoln. Running TO God, not away. Tracy is a Jehovah's Witness who does not understand the true nature of Jesus and separated herself from the family. This is about the true nature of Jesus, true brotherhood, adoption into the family of God, saving grace."
+      },
+      {
+        "name": "Project Reconcile",
+        "trinityMapping": "God the Holy Spirit",
+        "familyMapping": "Lynette",
+        "coreMovement": "Spiritual confusion → Holy Spirit-led reconciliation",
+        "spiritualAxis": "The Spirit's intercession and relational repair",
+        "primaryWound": "Spiritual deception, fractured relationships",
+        "description": "Giving people the tools and understanding of how to reconcile with God, and through that, reconcile with others. Lynette is into spiritualism and psychics - 'we have a better spiritualism: understanding the work of the Holy Spirit.' Romans 8:26 - we don't know what we should pray for, so the Spirit intercedes."
+      }
+    ],
+    "buildOrder": "Shame to Flame first. It forms the foundation. Without resolving shame, the others can't land. You can't build a Holy Spirit reconciliation engine while secretly believing you're disqualified."
+  },
+
+  "theologyOfReachability": {
+    "core": "Jesus came to seek and save the lost. He didn't call the saints, he called sinners to repent. People in shame are REACHABLE. People in Laodicea (comfortable, no awareness of need) are virtually unreachable. God can reach people on fire for Him OR freezing cold in despair. The lukewarm middle is the danger zone.",
+    "implication": "Shame is not the enemy. Shame is the entry point. The site meets people at the moment of spiritual reachability.",
+    "flame": "Flame is not emotional intensity. Flame is movement toward God without external scaffolding. They initiate prayer without prompting. They read Scripture without needing the site. They reconcile with someone they avoided. They stop hiding from shame. They choose obedience in a hard moment."
+  },
+
+  "designPhilosophy": {
+    "trainingWheels": "The site must function like training wheels. Not a content feed. Not endless consumption. Structured journeys with a clear END. The goal is the user outgrows the site.",
+    "noDepedency": "The proper witness is their transformation - the way they follow God, the way they live. They forget the site, forget who built it. They just follow God.",
+    "privacyByDesign": "Chat logs stored ONLY on the person's device, never on the server. If they delete it, it's gone for good. Even Groq doesn't keep logs for long.",
+    "neverOverwhelmTheSystemPrompt": "Modular knowledge loading via JSON. NLPs for detection/routing. LLM for conversational depth with dynamically loaded context. Master index routes to specific files. Each Bible translation in its own file."
+  },
+
+  "userJourney": {
+    "coreMechanism": {
+      "description": "If the outcome is 'less alone', then the mechanism must follow four steps in order. This is the ENGINE of the site. Everything else serves this.",
+      "step1_mirror": {
+        "name": "Mirror",
+        "purpose": "Describe their inner world so accurately they feel SEEN",
+        "rule": "If it doesn't NAME it, it doesn't reduce aloneness",
+        "mustBeSpecific": [
+          "Sexual guilt",
+          "Affair regret",
+          "Father wounds",
+          "Feeling spiritually disqualified",
+          "Comparing yourself to someone who moved on",
+          "Hating and loving someone at the same time"
+        ],
+        "notGenericDevotionalFluff": true
+      },
+      "step2_normalise": {
+        "name": "Normalise",
+        "purpose": "Not justify sin. But normalise struggle.",
+        "messages": [
+          "Others have walked this.",
+          "Scripture contains people like you.",
+          "You are not the anomaly."
+        ],
+        "biblicalExamples": ["Mary Magdalene", "David", "Peter", "The woman at the well", "Zacchaeus", "The tax collectors", "The adulterous woman"]
+      },
+      "step3_reAnchor": {
+        "name": "Re-anchor",
+        "purpose": "Not 'you're fine.' But 'shame is not your identity.' This is where theology enters."
+      },
+      "step4_companion": {
+        "name": "Companion Structure",
+        "purpose": "To reduce aloneness the site must FEEL like a companion",
+        "requirements": [
+          "It understands the user",
+          "It responds to them",
+          "It progresses with them",
+          "It remembers them (lightly, respectfully)",
+          "It gives them a next step"
+        ],
+        "keyInsight": "Static content cannot do this. Progressive journeys can."
+      }
+    },
+    "technicalImplication": {
+      "description": "Instead of verse of the day and random study sections, you build an adaptive entry system.",
+      "entryPoint": "How are you feeling right now?",
+      "entryOptions": ["Ashamed", "Angry at God", "Spiritually numb", "Betrayed", "Tempted", "Disqualified", "Lonely"],
+      "then": "It adapts. Not with AI rambling. With structured path modules.",
+      "release": "Before exit: action step, prayer, reflection saved, next session suggestion, 'come back tomorrow' structure. Return users come back for PROGRESS, not content."
+    }
+  },
+
+  "theTuesdayLoop": {
+    "description": "The daily spiritual operating system that Shame to Flame installs in a person's life.",
+    "morning": {
+      "name": "Morning Orientation",
+      "duration": "3 minutes",
+      "elements": ["One identity statement", "One short prayer", "One scripture", "One practical intention"],
+      "description": "Wake up early to spend time with God in worship and prayer. One small prayer realising that God hears them gives confidence for the rest of the day."
+    },
+    "midday": {
+      "name": "Midday Gratitude",
+      "description": "Stop at mid-morning break and thank God for a good day no matter how bad it is. Share a verse or two with a friend at lunch."
+    },
+    "courageStep": {
+      "name": "Courage Action",
+      "description": "Finally have the courage to call their mother, father, ex-boyfriend, cousin - whoever wronged them. Could be a text, email, or call. The site regularly asks: 'Who do you need to contact? Who do you need to forgive? What conversation are you avoiding?'"
+    },
+    "evening": {
+      "name": "Evening Reflection",
+      "description": "Instead of watching everything on streaming platforms, spend a thoughtful hour in prayer, studying God's word, creating a prayer list like Roger Morneau.",
+      "reflectionQuestions": ["Where did you notice God today?", "Where did you fail?", "Where are you grateful?", "Who needs prayer?"]
+    },
+    "transformation": "Over time: attitude changes, the way they dress, talk, interact with people. Diet changes - not because they must but because they realise they don't need things they were addicted to. Thankfulness, appreciation, affirmation become part of life. Every day including the Sabbath."
+  },
+
+  "technicalPurpose": {
+    "emotionDetection": "Meet the person where they are. Mirror their pain accurately. Route them to the right path.",
+    "crisisDetector": "Sacred responsibility. Real people in real despair will come here. If things go extreme, stop everything and provide real help.",
+    "paraphraser": "Companionship. ELIZA-style reflective questions that make people feel HEARD. Not clever tech - human connection.",
+    "groqLLM": "Deeper conversational depth when pattern matching and NLP aren't enough. Modular system prompt - never overwhelm it.",
+    "bibleJSON": "Scripture that speaks to their specific state. Not random verses. Five translations (KJV, NKJV, ESV, NASB, NLT) each in own file for efficiency.",
+    "knowledgeBase": "20 global pain points (WHO data), 40+ grief types (clinical/academic). So the system actually understands the breadth of human suffering.",
+    "maryMagdalene": "The archetype. She was NOT a prostitute - she was led into sin by her uncle Simon the Pharisee. Misjudged, misunderstood, restored, given a voice. The first person Jesus appeared to after resurrection. 'Not the disciples who ran. Me. The one they called sinful.'"
+  },
+
+  "ministryPositioning": {
+    "type": "Independent SDA-based ministry",
+    "focus": "Bible-based spiritual encouragement and general advice",
+    "role": "A beginning. An introduction. A first step to understand God's plan for their life. This ministry is not the destination - it is the starting point that gives people the courage to realise they need professional help and to seek the help they need.",
+    "noOnceSavedAlwaysSaved": "There is no such thing as once saved always saved. This is an ongoing journey, not a one-time fix. The site supports continuous growth and return engagement.",
+    "organicGrowth": "People share the site with others because it helped them. Transformed lives are the testimony. The proper witness is their transformation - the way they follow God, the way they live.",
+    "notQualifiedFor": "Professional counselling, medical advice, legal advice",
+    "referrals": "Professional crisis services (Lifeline, Beyond Blue, Brave Enough, 988, Crisis Text Line). A key goal is giving people the courage to take the next step toward professional help when they need it.",
+    "maryMagdaleneBook": "A forthcoming book about Mary's TRUE story - teasers and excerpts on the site, challenging the common misconception",
+    "sabbathKeeping": "Seventh-day Adventist foundation. The Tuesday Loop includes Sabbath observance.",
+    "rogerMorneau": "Prayer list practice inspired by Roger Morneau's approach"
+  },
+
+  "founderNotes": {
+    "onExhaustion": "The exhaustion is not from lack of surrender to God. It's from too many open loops: emotional scanning, complex architecture, fighting temptation, holding onto reconciliation narrative, monitoring social media triggers. That's cognitive overload.",
+    "onMinistryStandards": "Higher accountability in ministry does not mean zero humanity. Spiritual maturity isn't 'I no longer feel desire.' It's 'I order my life toward obedience even when desire exists.' You don't eliminate the battle. You walk while it's there.",
+    "onLettingGo": "When the focus is on God, you don't have to consciously let go of anything. It does that by itself. Attachment weakens when purpose strengthens, identity stabilises, shame dissolves, self-respect grows. You don't amputate attachment. You outgrow it.",
+    "keyQuote": "You're not just building software. You're trying to architect your own redemption story into code. That's not an insult. That's insight."
+  }
+}

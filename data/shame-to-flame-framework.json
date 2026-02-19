@@ -1,0 +1,240 @@
+{
+  "ministry": {
+    "name": "Shame to Flame",
+    "purpose": "Helping people journey from a sense of shame to being on fire for God",
+    "approach": "Practical and general life advice with a positive outlook - NOT clinical/medical",
+    "philosophy": "Ministry perspective, encouraging, uplifting"
+  },
+  "globalPainPoints": {
+    "source": "World Health Organization",
+    "description": "Top 20 global pain points and areas of confusion across multiple generations and belief systems",
+    "points": [
+      { "rank": 1, "name": "Mental Health Crisis", "keywords": ["anxiety", "depression"] },
+      { "rank": 2, "name": "Loneliness and Isolation", "keywords": ["lonely", "alone", "isolated"] },
+      { "rank": 3, "name": "Lack of Meaning and Purpose", "keywords": ["meaningless", "purposeless", "why am I here"] },
+      { "rank": 4, "name": "Financial Stress and Cost of Living", "keywords": ["money", "bills", "debt", "afford"] },
+      { "rank": 5, "name": "Work Pressure and Burnout", "keywords": ["exhausted", "overworked", "burnout", "stressed"] },
+      { "rank": 6, "name": "Family and Relationship Breakdowns", "keywords": ["divorce", "breakup", "family problems"] },
+      { "rank": 7, "name": "Societal Polarization and Division", "keywords": ["divided", "conflict", "politics"] },
+      { "rank": 8, "name": "Misinformation and Post-Truth Confusion", "keywords": ["fake news", "don't know what to believe"] },
+      { "rank": 9, "name": "Moral Values Confusion and Common Sense Decline", "keywords": ["right and wrong", "values", "ethics"] },
+      { "rank": 10, "name": "Identity and Self-Worth Struggles", "keywords": ["who am I", "worthless", "identity"] },
+      { "rank": 11, "name": "Trauma from Violence, Abuse, or Conflict", "keywords": ["abuse", "violence", "trauma", "hurt"] },
+      { "rank": 12, "name": "Addiction and Substance Abuse", "keywords": ["addiction", "drugs", "alcohol", "can't stop"] },
+      { "rank": 13, "name": "Discrimination and Social Injustice", "keywords": ["unfair", "discrimination", "injustice"] },
+      { "rank": 14, "name": "Social Media Overload and Digital Fatigue", "keywords": ["social media", "phone", "online", "screen time"] },
+      { "rank": 15, "name": "Spiritual Emptiness and Disconnection", "keywords": ["empty", "disconnected", "God feels distant"] },
+      { "rank": 16, "name": "Climate Change Anxiety", "keywords": ["climate", "environment", "future of planet"] },
+      { "rank": 17, "name": "War, Conflict, and Safety Fears", "keywords": ["war", "safety", "fear", "danger"] },
+      { "rank": 18, "name": "Guilt, Shame, and Lack of Forgiveness", "keywords": ["guilt", "shame", "forgive", "forgiveness"] },
+      { "rank": 19, "name": "Physical Health Issues and Illness", "keywords": ["sick", "illness", "health", "pain", "disease"] },
+      { "rank": 20, "name": "Grief and Loss", "keywords": ["grief", "loss", "death", "died", "gone"] }
+    ]
+  },
+  "griefTypes": {
+    "source": "Contemporary medicine and academia",
+    "description": "Loss is not a monolithic event but a multifaceted experience that varies based on the nature of the relationship, the circumstances of the event, and the societal recognition of the grief",
+    "types": [
+      {
+        "name": "Normal (Uncomplicated) Grief",
+        "description": "The expected and standard response to the loss of a close attachment. Involves emotional (sadness, anger), physical (insomnia, appetite changes), and cognitive (confusion, preoccupation) reactions that generally attenuate as the individual finds integrated grief.",
+        "keywords": ["sad", "miss them", "grieving"]
+      },
+      {
+        "name": "Anticipatory Grief",
+        "description": "Grief that occurs prior to a loss, typically after a terminal diagnosis or significant decline in health. A proactive process of preparing for the inevitable, characterized by higher levels of fear and anxiety.",
+        "keywords": ["terminal", "dying", "preparing", "going to lose"]
+      },
+      {
+        "name": "Complicated Grief",
+        "description": "When the natural movement from acute grief to integrated grief is derailed. Affects approximately 7% of bereaved people. Characterized by excessive rumination, avoidance of reminders, and persistent intense yearning.",
+        "keywords": ["can't move on", "stuck", "obsessing"]
+      },
+      {
+        "name": "Prolonged Grief Disorder",
+        "description": "Formalized clinical diagnosis (WHO/APA) for grief that remains disabling and pervasive beyond 6 to 12 months.",
+        "keywords": ["years", "still grieving", "long time"]
+      },
+      {
+        "name": "Persistent Complex Bereavement Disorder",
+        "description": "DSM-5 diagnostic term, precursor to Prolonged Grief Disorder.",
+        "keywords": ["complex", "persistent", "won't go away"]
+      },
+      {
+        "name": "Disenfranchised Grief",
+        "description": "Grief experienced when a loss cannot be openly acknowledged, socially validated, or publicly mourned. Examples: death of ex-spouse, secret lover, pet.",
+        "keywords": ["no one understands", "can't tell anyone", "not recognized", "pet", "ex"]
+      },
+      {
+        "name": "Ambiguous Loss Type I",
+        "description": "Physical Absence/Psychological Presence - 'gone but not for sure'. Loved one is physically missing (kidnapping, war, disaster) but remains psychologically present because there is no proof of death.",
+        "keywords": ["missing", "disappeared", "no body", "don't know if alive"]
+      },
+      {
+        "name": "Ambiguous Loss Type II",
+        "description": "Psychological Absence/Physical Presence - 'here but not here'. Person is physically present but psychologically gone due to dementia, Alzheimer's, brain injury, or severe addiction.",
+        "keywords": ["dementia", "Alzheimer's", "not the same person", "brain injury", "don't recognize me"]
+      },
+      {
+        "name": "Collective Grief",
+        "description": "Shared experience of bereavement felt by a group, community, or nation after a catastrophic event (terrorist attack, school shooting, pandemic).",
+        "keywords": ["we all", "community", "nation", "everyone"]
+      },
+      {
+        "name": "Ecological Grief",
+        "description": "Grief felt in response to ecological degradation or loss of landscapes, species, ecosystems. Sub-forms: transitional loss, lifeworld loss, shattered future dreams.",
+        "keywords": ["environment", "nature", "species", "climate", "destroyed"]
+      },
+      {
+        "name": "Historical Trauma/Grief",
+        "description": "Cumulative emotional and psychological wounding over lifespan and across generations from massive group trauma (Holocaust, slavery, internment).",
+        "keywords": ["ancestors", "heritage", "history", "people"]
+      },
+      {
+        "name": "Intergenerational Trauma",
+        "description": "Transmission of unresolved grief and psychological symptoms from one generation to the next within a family system.",
+        "keywords": ["family pattern", "parents", "grandparents", "passed down"]
+      },
+      {
+        "name": "Vicarious Grief",
+        "description": "Empathetic grief experienced by professionals (healthcare workers, first responders) who witness trauma and losses of others.",
+        "keywords": ["work", "patients", "witnessed", "others' pain"]
+      },
+      {
+        "name": "Traumatic Grief",
+        "description": "Complex mixture of trauma and loss when death is sudden, violent, or preventable. Often requires simultaneous PTSD and bereavement treatment.",
+        "keywords": ["sudden", "violent", "accident", "murder", "suicide", "unexpected"]
+      },
+      {
+        "name": "Cumulative Grief (Bereavement Overload)",
+        "description": "Multiple losses occurring in close proximity - cannot process one before another arrives. Results in emotional exhaustion.",
+        "keywords": ["multiple", "one after another", "too much", "overwhelmed"]
+      },
+      {
+        "name": "Secondary Loss",
+        "description": "Peripheral losses following a primary loss: financial security, social role, identity, routines, future plans.",
+        "keywords": ["also lost", "everything changed", "role", "identity", "plans"]
+      },
+      {
+        "name": "Inhibited Grief",
+        "description": "Mourning where individual suppresses reaction to maintain professional facade or protect others. Often leads to physical manifestations (headaches, digestive issues).",
+        "keywords": ["holding it in", "have to be strong", "can't show", "physical symptoms"]
+      },
+      {
+        "name": "Delayed Grief",
+        "description": "Reaction postponed for weeks, months, or years. Often emerges suddenly after a separate minor event makes the original loss 'real'.",
+        "keywords": ["years later", "suddenly hit me", "didn't grieve at the time"]
+      },
+      {
+        "name": "Absent Grief",
+        "description": "Few or no outward signs of grieving. May be due to total denial or psychological freezing of grief process.",
+        "keywords": ["feel nothing", "numb", "can't feel", "frozen"]
+      },
+      {
+        "name": "Masked Grief",
+        "description": "Symptoms like impulsive behavior or physical illness without recognizing they are related to a loss.",
+        "keywords": ["acting out", "sick all the time", "don't know why"]
+      },
+      {
+        "name": "Exaggerated Grief",
+        "description": "Extreme reaction where symptoms intensify over time rather than waning. May lead to self-destructive behaviors or clinical psychosis.",
+        "keywords": ["getting worse", "out of control", "can't cope"]
+      },
+      {
+        "name": "Abbreviated Grief",
+        "description": "Short-lived but genuine grief response. Sometimes seen when deceased is quickly 'replaced' or if significant mourning was completed anticipatorily.",
+        "keywords": ["moved on quickly", "already prepared", "brief"]
+      },
+      {
+        "name": "Distorted (Conflicted) Grief",
+        "description": "Atypical reactions involving intense self-blame, hostility, or odd behavioral changes.",
+        "keywords": ["my fault", "angry", "hate", "strange behavior"]
+      },
+      {
+        "name": "Chronic Grief",
+        "description": "Prolongation of intense symptoms appropriate in acute phase but persisting for years without resolution.",
+        "keywords": ["years", "same intensity", "never gets better"]
+      },
+      {
+        "name": "Dissonant Grief",
+        "description": "Clash between individual's natural grieving style and societal/cultural expectations they feel they must meet.",
+        "keywords": ["supposed to", "expectations", "wrong way to grieve"]
+      },
+      {
+        "name": "Intuitive Grief",
+        "description": "Affective style - processing loss through deep waves of emotion, crying, sharing feelings with community.",
+        "keywords": ["crying", "emotional", "need to talk", "feel deeply"]
+      },
+      {
+        "name": "Instrumental Grief",
+        "description": "Cognitive style - processing loss through problem-solving, activity, internal reflection. Often expresses anger more readily than sadness.",
+        "keywords": ["need to do something", "stay busy", "angry not sad"]
+      },
+      {
+        "name": "Blended Grief",
+        "description": "Most common style - fluid movement between cognitive/physical processing and emotional expression.",
+        "keywords": ["sometimes cry sometimes work", "varies"]
+      },
+      {
+        "name": "Complicated Spiritual Grief",
+        "description": "Spiritual struggle where loss leads to crisis of faith, feeling abandoned or punished by God, estranged from religious community.",
+        "keywords": ["God abandoned me", "punished", "lost faith", "why God"]
+      },
+      {
+        "name": "Non-finite Loss",
+        "description": "Continuous loss lacking clear conclusion. Discrepancy between actual life and life one 'should have had'. Common in chronic illness, infertility.",
+        "keywords": ["should have been", "never will", "ongoing", "infertility", "disability"]
+      },
+      {
+        "name": "Living Loss",
+        "description": "Ongoing grief tied to life-altering events where person is still alive (child with chronic disability, partner with degenerative illness).",
+        "keywords": ["still alive but", "watching them", "progressive", "degenerative"]
+      },
+      {
+        "name": "Chronic Sorrow",
+        "description": "Periodic, lifelong sadness that re-emerges at developmental milestones in response to living losses or non-finite losses.",
+        "keywords": ["comes back", "milestones", "birthdays", "should have been"]
+      },
+      {
+        "name": "Grief for Self",
+        "description": "Bereavement for loss of personal events, financial security, milestones, career, identity.",
+        "keywords": ["lost myself", "who I was", "my career", "my dreams"]
+      },
+      {
+        "name": "Moral Injury",
+        "description": "Psychological and spiritual burden from actions/inactions that violate core moral beliefs. Results in profound shame and loss of trust.",
+        "keywords": ["did something wrong", "violated", "ashamed", "can't forgive myself"]
+      },
+      {
+        "name": "Silent Grief",
+        "description": "Masked grief where individual hides pain behind facade of false happiness to avoid burdening others.",
+        "keywords": ["pretending", "fine on outside", "don't want to burden"]
+      },
+      {
+        "name": "Compounded Grief",
+        "description": "Grief intensified by multiple simultaneous or cascading losses - sense of 'losing everything'.",
+        "keywords": ["everything", "all at once", "losing it all"]
+      },
+      {
+        "name": "Indefinite Loss",
+        "description": "For carers of cancer patients - constant heightened awareness of mortality and inability to plan for future.",
+        "keywords": ["caregiver", "cancer", "don't know how long", "can't plan"]
+      },
+      {
+        "name": "Doubt-Related Struggle",
+        "description": "Cognitive spiritual grief - troubled by questions about religion or spirituality that previously felt certain.",
+        "keywords": ["doubting", "questions", "used to believe", "not sure anymore"]
+      },
+      {
+        "name": "Struggle of Ultimate Meaning",
+        "description": "Existential grief - concern that life may not matter or that one's existence makes no difference.",
+        "keywords": ["does it matter", "pointless", "no difference", "why bother"]
+      },
+      {
+        "name": "Desecration",
+        "description": "Specialized sacred loss - perceiving a manifestation of God or sacred bond as violated or defiled.",
+        "keywords": ["violated", "sacred", "defiled", "holy"]
+      }
+    ]
+  }
+}

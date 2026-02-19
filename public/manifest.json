@@ -1,0 +1,71 @@
+{
+  "name": "Shame to Flame - Christian Healing Ministry",
+  "short_name": "Shame to Flame",
+  "description": "A safe place for healing and hope. Transform your shame into flame through God's love and grace.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ea580c",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["lifestyle", "health", "education"],
+  "icons": [
+    {
+      "src": "/flame-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daily Fire",
+      "short_name": "Daily Fire",
+      "description": "Daily encouragements and devotionals",
+      "url": "/daily-fire",
+      "icons": [
+        {
+          "src": "/flame-icon.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Healing Pathways",
+      "short_name": "Healing",
+      "description": "Guided healing resources",
+      "url": "/healing-pathways",
+      "icons": [
+        {
+          "src": "/flame-icon.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Prayer Rock",
+      "short_name": "Prayer",
+      "description": "Prayer requests and reflections",
+      "url": "/prayer-rock",
+      "icons": [
+        {
+          "src": "/flame-icon.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get support and prayer",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/flame-icon.svg",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "version": "kjv",
+  "name": "King James Version",
+  "abbreviation": "KJV",
+  "language": "en",
+  "year": 1611,
+  "description": "The King James Version (KJV), also known as the Authorized Version, is an English translation of the Christian Bible commissioned by King James I of England.",
+  "copyright": "Public Domain",
+  "isComplete": false,
+  "booksAvailable": ["genesis", "john", "psalms", "romans"],
+  "lastUpdated": "2026-01-31"
+}

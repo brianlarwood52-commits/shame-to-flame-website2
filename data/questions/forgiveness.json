@@ -1,0 +1,102 @@
+{
+  "subject_id": "forgiveness",
+  "subject_name": "Forgiveness",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "forgiveness_01",
+      "text": "Is there someone in your life you find difficult to forgive?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Colossians 3:13",
+      "verse_text": "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.",
+      "follow_up_hints": ["Difficulty is normal", "As Christ forgave us", "Process not event"]
+    },
+    {
+      "id": "forgiveness_02",
+      "text": "Do you struggle more with forgiving others, or forgiving yourself?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "1 John 1:9",
+      "verse_text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
+      "follow_up_hints": ["Both are real struggles", "God's faithfulness", "Self-forgiveness is receiving His"]
+    },
+    {
+      "id": "forgiveness_03",
+      "text": "What does unforgiveness cost you? How does it affect your peace?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Hebrews 12:15",
+      "verse_text": "Looking diligently lest any man fail of the grace of God; lest any root of bitterness springing up trouble you, and thereby many be defiled.",
+      "follow_up_hints": ["Root of bitterness", "It costs us peace", "Forgiveness frees us first"]
+    },
+    {
+      "id": "forgiveness_04",
+      "text": "Have you experienced God's forgiveness for yourself? What was that like?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Psalm 103:10-12",
+      "verse_text": "He hath not dealt with us after our sins; nor rewarded us according to our iniquities. For as the heaven is high above the earth, so great is his mercy toward them that fear him. As far as the east is from the west, so far hath he removed our transgressions from us.",
+      "follow_up_hints": ["Personal experience of grace", "Not what we deserve", "Distance of removal"]
+    },
+    {
+      "id": "forgiveness_05",
+      "text": "Is there a part of you that believes some things are unforgivable?",
+      "tier": "standard",
+      "value": -2,
+      "verse_reference": "Matthew 12:31",
+      "verse_text": "Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven unto men.",
+      "follow_up_hints": ["All MANNER of sin", "Explore what feels unforgivable", "God's capacity exceeds ours"]
+    },
+    {
+      "id": "forgiveness_06",
+      "text": "If you could let go of one grievance today, which would bring you the most peace?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Matthew 6:14",
+      "verse_text": "For if ye forgive men their trespasses, your heavenly Father will also forgive you.",
+      "follow_up_hints": ["Identify specific target", "Connection to receiving forgiveness", "One step at a time"]
+    },
+    {
+      "id": "forgiveness_07",
+      "text": "What would it look like to pray for someone who hurt you?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Matthew 5:44",
+      "verse_text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
+      "follow_up_hints": ["Radical teaching of Jesus", "Prayer changes our heart", "Start small"]
+    },
+    {
+      "id": "forgiveness_08",
+      "text": "Do you believe forgiveness means saying what happened was okay?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Romans 12:19",
+      "verse_text": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.",
+      "follow_up_hints": ["Forgiveness ≠ approval", "Justice belongs to God", "Releasing them to God"]
+    },
+    {
+      "id": "forgiveness_09",
+      "text": "How might your life change if you released the people who've hurt you to God's justice?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Romans 12:21",
+      "verse_text": "Be not overcome of evil, but overcome evil with good.",
+      "follow_up_hints": ["Freedom in release", "Not overcome but overcomer", "Good conquers evil"]
+    },
+    {
+      "id": "forgiveness_10",
+      "text": "Can you think of someone who forgave you when you didn't deserve it?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "Ephesians 4:32",
+      "verse_text": "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.",
+      "follow_up_hints": ["Personal experience of mercy", "Model for giving mercy", "For Christ's sake"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "standard", "standard", "growth", "growth"],
+    "crisis_fallback": ["forgiveness_01", "forgiveness_02"],
+    "victory_emphasis": ["forgiveness_06", "forgiveness_09"]
+  }
+}

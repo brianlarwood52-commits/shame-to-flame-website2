@@ -1,0 +1,20 @@
+﻿{
+  "book": "genesis",
+  "name": "Genesis",
+  "version": "kjv",
+  "versionName": "King James Version",
+  "chapters": {
+    "1": {
+      "1": "In the beginning God created the heaven and the earth.",
+      "2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
+      "3": "And God said, Let there be light: and there was light.",
+      "4": "And God saw the light, that it was good: and God divided the light from the darkness.",
+      "5": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+      "26": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+      "27": "So God created man in his own image, in the image of God created he him; male and female created he them."
+    }
+  },
+  "totalChapters": 50,
+  "isComplete": false,
+  "sampleOnly": true
+}

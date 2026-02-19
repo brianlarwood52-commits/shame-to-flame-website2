@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-31",
+  "description": "Emotional tier system for ELIZA Bible Study - determines response tone and content selection",
+  "tiers": {
+    "happy": {
+      "id": "happy",
+      "name": "Joyful",
+      "min": 15,
+      "max": null,
+      "tone": "celebratory",
+      "description": "User is experiencing joy, gratitude, or spiritual breakthrough",
+      "color": "#22C55E",
+      "color_name": "emerald",
+      "bg_gradient": "from-emerald-500 to-green-400",
+      "mary_approach": "rejoicing",
+      "response_style": {
+        "energy": "uplifting",
+        "focus": "celebration and growth",
+        "scripture_tone": "triumphant",
+        "question_depth": "exploratory"
+      },
+      "indicators": ["grateful", "blessed", "amazing", "wonderful", "peaceful", "joyful"]
+    },
+    "good": {
+      "id": "good",
+      "name": "Encouraged",
+      "min": 5,
+      "max": 14,
+      "tone": "encouraging",
+      "description": "User is in a positive state, open to deeper exploration",
+      "color": "#3B82F6",
+      "color_name": "blue",
+      "bg_gradient": "from-blue-500 to-sky-400",
+      "mary_approach": "nurturing",
+      "response_style": {
+        "energy": "warm",
+        "focus": "building faith",
+        "scripture_tone": "affirming",
+        "question_depth": "reflective"
+      },
+      "indicators": ["okay", "good", "better", "hopeful", "improving", "thankful"]
+    },
+    "neutral": {
+      "id": "neutral",
+      "name": "Seeking",
+      "min": -4,
+      "max": 4,
+      "tone": "supportive",
+      "description": "User is neutral or exploring, needs gentle guidance",
+      "color": "#A855F7",
+      "color_name": "purple",
+      "bg_gradient": "from-purple-500 to-violet-400",
+      "mary_approach": "guiding",
+      "response_style": {
+        "energy": "calm",
+        "focus": "discovery and understanding",
+        "scripture_tone": "instructive",
+        "question_depth": "foundational"
+      },
+      "indicators": ["curious", "wondering", "thinking", "questioning", "searching"]
+    },
+    "bad": {
+      "id": "bad",
+      "name": "Struggling",
+      "min": -14,
+      "max": -5,
+      "tone": "gentle",
+      "description": "User is experiencing difficulty, needs compassionate support",
+      "color": "#F59E0B",
+      "color_name": "amber",
+      "bg_gradient": "from-amber-500 to-orange-400",
+      "mary_approach": "empathetic",
+      "response_style": {
+        "energy": "soft",
+        "focus": "comfort and hope",
+        "scripture_tone": "comforting",
+        "question_depth": "validating"
+      },
+      "indicators": ["struggling", "hurting", "difficult", "hard", "frustrated", "tired"]
+    },
+    "depressed": {
+      "id": "depressed",
+      "name": "In Crisis",
+      "min": null,
+      "max": -15,
+      "tone": "crisis",
+      "description": "User may be in crisis - prioritize safety and immediate support",
+      "color": "#EF4444",
+      "color_name": "red",
+      "bg_gradient": "from-red-500 to-rose-400",
+      "mary_approach": "protective",
+      "response_style": {
+        "energy": "present",
+        "focus": "safety and immediate comfort",
+        "scripture_tone": "presence-focused",
+        "question_depth": "minimal"
+      },
+      "indicators": ["hopeless", "worthless", "give up", "can't go on", "ending", "no point"],
+      "triggers_crisis_protocol": true
+    }
+  },
+  "scoring": {
+    "question_response_weights": {
+      "positive_strong": 3,
+      "positive_mild": 1,
+      "neutral": 0,
+      "negative_mild": -1,
+      "negative_strong": -3
+    },
+    "keyword_modifiers": {
+      "crisis_words": -10,
+      "hope_words": 2,
+      "gratitude_words": 3,
+      "pain_words": -2
+    },
+    "session_momentum": {
+      "positive_streak_bonus": 1,
+      "negative_streak_protection": -0.5
+    }
+  }
+}

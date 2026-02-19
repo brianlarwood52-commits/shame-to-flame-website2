@@ -1,0 +1,102 @@
+{
+  "subject_id": "shame",
+  "subject_name": "Shame & Guilt",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "shame_01",
+      "text": "When you think about moments of shame in your life, do any specific memories come to mind that still feel heavy?",
+      "tier": "gentle",
+      "value": -3,
+      "verse_reference": "Romans 8:1",
+      "verse_text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
+      "follow_up_hints": ["Validate their vulnerability", "Acknowledge the weight they carry", "Gentle transition to freedom"]
+    },
+    {
+      "id": "shame_02",
+      "text": "Have you ever felt like your past mistakes define who you are?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "2 Corinthians 5:17",
+      "verse_text": "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.",
+      "follow_up_hints": ["Separate identity from actions", "Point to new creation truth", "Affirm their worth"]
+    },
+    {
+      "id": "shame_03",
+      "text": "Is there something you've never told anyone because you were afraid of how they'd see you?",
+      "tier": "gentle",
+      "value": -4,
+      "verse_reference": "1 John 1:9",
+      "verse_text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
+      "follow_up_hints": ["Honor the trust", "No pressure to share details", "Point to safe confession to God"]
+    },
+    {
+      "id": "shame_04",
+      "text": "How has shame affected the way you see yourself in God's eyes?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Psalm 103:12",
+      "verse_text": "As far as the east is from the west, so far hath he removed our transgressions from us.",
+      "follow_up_hints": ["Explore their view of God", "Contrast shame's lies with truth", "Distance metaphor is powerful"]
+    },
+    {
+      "id": "shame_05",
+      "text": "Do you sometimes hide parts of yourself from God, even though you know He sees everything?",
+      "tier": "standard",
+      "value": -2,
+      "verse_reference": "Hebrews 4:16",
+      "verse_text": "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need.",
+      "follow_up_hints": ["Explore the hiding instinct", "Boldness through grace", "God already knows and loves"]
+    },
+    {
+      "id": "shame_06",
+      "text": "What would change in your life if you truly believed God holds nothing against you?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Isaiah 43:25",
+      "verse_text": "I, even I, am he that blotteth out thy transgressions for mine own sake, and will not remember thy sins.",
+      "follow_up_hints": ["Envision freedom", "God chooses not to remember", "For HIS sake, not ours"]
+    },
+    {
+      "id": "shame_07",
+      "text": "Can you remember a time when you felt truly forgiven and free? What was that like?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Psalm 32:1",
+      "verse_text": "Blessed is he whose transgression is forgiven, whose sin is covered.",
+      "follow_up_hints": ["Build on positive memory", "Blessedness of forgiveness", "That feeling is available always"]
+    },
+    {
+      "id": "shame_08",
+      "text": "Mary Magdalene was publicly known for her past, yet Jesus chose her. How does knowing that affect you?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Luke 8:2",
+      "verse_text": "And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils.",
+      "follow_up_hints": ["Personal connection to Mary's story", "Chosen despite past", "First witness of resurrection"]
+    },
+    {
+      "id": "shame_09",
+      "text": "If Jesus were sitting with you right now, what do you think He would say about the shame you carry?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "John 8:11",
+      "verse_text": "She said, No man, Lord. And Jesus said unto her, Neither do I condemn thee: go, and sin no more.",
+      "follow_up_hints": ["Jesus's actual words to the shamed", "No condemnation, just forward", "Imagine His tone"]
+    },
+    {
+      "id": "shame_10",
+      "text": "Are there lies about yourself that shame has made you believe? What are they?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "John 8:32",
+      "verse_text": "And ye shall know the truth, and the truth shall make you free.",
+      "follow_up_hints": ["Identify the lies", "Truth sets free", "Shame is not the final word"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["shame_01", "shame_08"],
+    "victory_emphasis": ["shame_06", "shame_07", "shame_09"]
+  }
+}

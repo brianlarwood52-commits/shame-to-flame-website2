@@ -1,0 +1,102 @@
+{
+  "subject_id": "rejection",
+  "subject_name": "Rejection & Abandonment",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "rejection_01",
+      "text": "Can you tell me about a time when you felt deeply rejected?",
+      "tier": "gentle",
+      "value": -3,
+      "verse_reference": "Isaiah 53:3",
+      "verse_text": "He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.",
+      "follow_up_hints": ["Jesus knows rejection", "Safe to share", "You're understood here"]
+    },
+    {
+      "id": "rejection_02",
+      "text": "Do you ever feel like you have to earn people's love or acceptance?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "Romans 5:8",
+      "verse_text": "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
+      "follow_up_hints": ["Love isn't earned", "While we were YET sinners", "Unconditional acceptance"]
+    },
+    {
+      "id": "rejection_03",
+      "text": "Who in your life has made you feel most abandoned?",
+      "tier": "gentle",
+      "value": -3,
+      "verse_reference": "Psalm 27:10",
+      "verse_text": "When my father and my mother forsake me, then the LORD will take me up.",
+      "follow_up_hints": ["Even parents can fail", "The LORD will take you up", "He never abandons"]
+    },
+    {
+      "id": "rejection_04",
+      "text": "How has rejection shaped the way you protect yourself?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Psalm 18:2",
+      "verse_text": "The LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.",
+      "follow_up_hints": ["Protection mechanisms understood", "God as true protector", "Safety in Him"]
+    },
+    {
+      "id": "rejection_05",
+      "text": "Do you sometimes push people away before they can reject you?",
+      "tier": "standard",
+      "value": -2,
+      "verse_reference": "Proverbs 18:24",
+      "verse_text": "A man that hath friends must shew himself friendly: and there is a friend that sticketh closer than a brother.",
+      "follow_up_hints": ["Self-protective patterns", "Showing friendliness first", "Jesus sticks closer"]
+    },
+    {
+      "id": "rejection_06",
+      "text": "What would it feel like to be completely accepted, with nothing held back?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Ephesians 1:6",
+      "verse_text": "To the praise of the glory of his grace, wherein he hath made us accepted in the beloved.",
+      "follow_up_hints": ["Imagine full acceptance", "Accepted IN the Beloved", "Already true in Christ"]
+    },
+    {
+      "id": "rejection_07",
+      "text": "Has someone's rejection actually protected you from something harmful?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Romans 8:28",
+      "verse_text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+      "follow_up_hints": ["Reframe rejection", "All things work together", "Sometimes closed doors protect"]
+    },
+    {
+      "id": "rejection_08",
+      "text": "If God chose you before the foundation of the world, what does that say about your worth?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Ephesians 1:4",
+      "verse_text": "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love.",
+      "follow_up_hints": ["Chosen BEFORE creation", "Not afterthought", "Intentionally wanted"]
+    },
+    {
+      "id": "rejection_09",
+      "text": "How do you think God sees you when others reject you?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Zephaniah 3:17",
+      "verse_text": "The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.",
+      "follow_up_hints": ["God's perspective", "He REJOICES over you", "Singing over you"]
+    },
+    {
+      "id": "rejection_10",
+      "text": "Would you like to hear what Scripture says about how much you belong to God?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "1 Peter 2:9",
+      "verse_text": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light.",
+      "follow_up_hints": ["Identity statements", "Chosen, royal, holy", "Called into light"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["rejection_01", "rejection_03"],
+    "victory_emphasis": ["rejection_06", "rejection_08"]
+  }
+}

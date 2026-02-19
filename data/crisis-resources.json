@@ -1,0 +1,246 @@
+{
+  "version": "1.0.0",
+  "description": "Crisis resources for ELIZA Bible Study system - shown when user emotional score indicates distress",
+  "trigger_conditions": {
+    "emotional_score_below": -15,
+    "keywords_detected": ["suicide", "kill myself", "end it", "no point", "want to die", "can't go on", "give up", "self-harm", "hurt myself"],
+    "explicit_request": true
+  },
+  "emergency_message": {
+    "text": "If you are in immediate danger, please call emergency services right now.",
+    "us_number": "911",
+    "au_number": "000",
+    "uk_number": "999"
+  },
+  "crisis_introduction": {
+    "mary_voice": "Dear friend, what you're carrying sounds very heavy. I want you to know that reaching out for help is an act of courage, not weakness. Here are some people who are ready to listen right now - please don't hesitate to reach out to them.",
+    "display_priority": "high"
+  },
+  "resources": {
+    "international": [
+      {
+        "id": "international_association",
+        "name": "International Association for Suicide Prevention",
+        "description": "Directory of crisis centers worldwide",
+        "url": "https://www.iasp.info/resources/Crisis_Centres/",
+        "type": "directory"
+      }
+    ],
+    "united_states": [
+      {
+        "id": "us_988",
+        "name": "988 Suicide & Crisis Lifeline",
+        "phone": "988",
+        "description": "Free, confidential 24/7 support for people in distress",
+        "url": "https://988lifeline.org/",
+        "availability": "24/7",
+        "type": "phone",
+        "primary": true
+      },
+      {
+        "id": "us_crisis_text",
+        "name": "Crisis Text Line",
+        "contact": "Text HOME to 741741",
+        "phone": "741741",
+        "description": "Free 24/7 crisis support via text message",
+        "url": "https://www.crisistextline.org/",
+        "availability": "24/7",
+        "type": "text"
+      },
+      {
+        "id": "us_veterans",
+        "name": "Veterans Crisis Line",
+        "phone": "988, then press 1",
+        "description": "Support for veterans and their loved ones",
+        "url": "https://www.veteranscrisisline.net/",
+        "availability": "24/7",
+        "type": "phone"
+      },
+      {
+        "id": "us_trevor",
+        "name": "Trevor Project",
+        "phone": "1-866-488-7386",
+        "description": "Crisis support for LGBTQ+ young people",
+        "url": "https://www.thetrevorproject.org/",
+        "availability": "24/7",
+        "type": "phone"
+      }
+    ],
+    "australia": [
+      {
+        "id": "au_lifeline",
+        "name": "Lifeline Australia",
+        "phone": "13 11 14",
+        "description": "24/7 crisis support and suicide prevention",
+        "url": "https://www.lifeline.org.au/",
+        "availability": "24/7",
+        "type": "phone",
+        "primary": true
+      },
+      {
+        "id": "au_suicide_callback",
+        "name": "Suicide Call Back Service",
+        "phone": "1300 659 467",
+        "description": "Free professional counseling for anyone affected by suicide",
+        "url": "https://www.suicidecallbackservice.org.au/",
+        "availability": "24/7",
+        "type": "phone"
+      },
+      {
+        "id": "au_beyond_blue",
+        "name": "Beyond Blue",
+        "phone": "1300 22 4636",
+        "description": "Mental health support and counseling",
+        "url": "https://www.beyondblue.org.au/",
+        "availability": "24/7",
+        "type": "phone"
+      },
+      {
+        "id": "au_mensline",
+        "name": "MensLine Australia",
+        "phone": "1300 78 99 78",
+        "description": "Professional support for men with emotional concerns",
+        "url": "https://mensline.org.au/",
+        "availability": "24/7",
+        "type": "phone"
+      },
+      {
+        "id": "au_kids_helpline",
+        "name": "Kids Helpline",
+        "phone": "1800 55 1800",
+        "description": "Counseling for young people aged 5-25",
+        "url": "https://kidshelpline.com.au/",
+        "availability": "24/7",
+        "type": "phone",
+        "age_range": "5-25"
+      },
+      {
+        "id": "au_brave_enough",
+        "name": "Brave Enough Careline",
+        "phone": "1800 272 838",
+        "description": "Freecall support line for those in crisis",
+        "url": "https://www.braveenough.org/",
+        "availability": "24/7",
+        "type": "phone"
+      }
+    ],
+    "united_kingdom": [
+      {
+        "id": "uk_samaritans",
+        "name": "Samaritans",
+        "phone": "116 123",
+        "description": "Free emotional support 24 hours a day",
+        "url": "https://www.samaritans.org/",
+        "availability": "24/7",
+        "type": "phone",
+        "primary": true
+      },
+      {
+        "id": "uk_shout",
+        "name": "Shout Crisis Text Line",
+        "contact": "Text SHOUT to 85258",
+        "phone": "85258",
+        "description": "Free confidential support via text",
+        "url": "https://giveusashout.org/",
+        "availability": "24/7",
+        "type": "text"
+      },
+      {
+        "id": "uk_calm",
+        "name": "CALM",
+        "phone": "0800 58 58 58",
+        "description": "Support for men in crisis",
+        "url": "https://www.thecalmzone.net/",
+        "availability": "5pm-midnight daily",
+        "type": "phone"
+      }
+    ],
+    "canada": [
+      {
+        "id": "ca_988",
+        "name": "988 Suicide Crisis Helpline",
+        "phone": "988",
+        "description": "24/7 crisis support in English and French",
+        "url": "https://988.ca/",
+        "availability": "24/7",
+        "type": "phone",
+        "primary": true
+      },
+      {
+        "id": "ca_crisis_text",
+        "name": "Crisis Text Line",
+        "contact": "Text HELLO to 686868",
+        "phone": "686868",
+        "description": "Free 24/7 crisis support via text",
+        "url": "https://www.crisistextline.ca/",
+        "availability": "24/7",
+        "type": "text"
+      }
+    ],
+    "new_zealand": [
+      {
+        "id": "nz_lifeline",
+        "name": "Lifeline NZ",
+        "phone": "0800 543 354",
+        "description": "24/7 counseling and support",
+        "url": "https://www.lifeline.org.nz/",
+        "availability": "24/7",
+        "type": "phone",
+        "primary": true
+      },
+      {
+        "id": "nz_suicide_crisis",
+        "name": "Suicide Crisis Helpline",
+        "phone": "0508 828 865",
+        "description": "Specialist suicide prevention support",
+        "url": "https://www.health.govt.nz/",
+        "availability": "24/7",
+        "type": "phone"
+      }
+    ]
+  },
+  "faith_based_resources": [
+    {
+      "id": "faith_focus_family",
+      "name": "Focus on the Family",
+      "phone": "1-855-771-4357",
+      "description": "Christian counseling referral service",
+      "url": "https://www.focusonthefamily.com/",
+      "availability": "Mon-Fri 6am-8pm MT",
+      "country": "US"
+    },
+    {
+      "id": "faith_new_life",
+      "name": "New Life Ministries",
+      "phone": "1-800-639-5433",
+      "description": "Christian mental health counseling",
+      "url": "https://newlife.com/",
+      "availability": "24/7",
+      "country": "US"
+    }
+  ],
+  "display_settings": {
+    "show_emergency_first": true,
+    "auto_detect_country": true,
+    "show_text_options": true,
+    "include_faith_based": true,
+    "max_resources_shown": 5
+  },
+  "scripture_comfort": {
+    "intro": "While you wait or after you call, hold onto this truth:",
+    "verses": [
+      {
+        "reference": "Psalm 34:18",
+        "text": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit."
+      },
+      {
+        "reference": "Isaiah 41:10",
+        "text": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee."
+      },
+      {
+        "reference": "Matthew 11:28",
+        "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+      }
+    ]
+  }
+}

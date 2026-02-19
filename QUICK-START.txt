@@ -1,0 +1,115 @@
+🔥 SHAME TO FLAME - QUICK START GUIDE
+======================================
+
+YOUR WEBSITE IS READY TO DEPLOY!
+
+Two files available for download:
+1. shame-to-flame-static.tar.gz (377KB)
+   - Ready-to-deploy static website
+   - Just upload and go!
+
+2. shame-to-flame-complete.tar.gz (468KB)
+   - Full source code included
+   - For developers who want to customize
+
+FASTEST DEPLOYMENT (5 minutes):
+================================
+
+OPTION 1: Netlify Drop (Easiest)
+---------------------------------
+1. Go to https://app.netlify.com/drop
+2. Extract shame-to-flame-static.tar.gz
+3. Drag the "out" folder onto the Netlify Drop zone
+4. Done! Your site is live with a free URL
+5. (Optional) Add your custom domain in settings
+
+OPTION 2: Vercel (Also Easy)
+-----------------------------
+1. Go to https://vercel.com
+2. Sign in with GitHub
+3. Click "Add New Project"
+4. Upload the folder or connect GitHub repo
+5. Done! Auto-deploys with every update
+
+OPTION 3: GitHub Pages (Free Hosting)
+--------------------------------------
+1. Create a new GitHub repository
+2. Upload the contents of the "out" folder
+3. Go to Settings → Pages
+4. Select your branch and /root folder
+5. Your site will be at username.github.io/repo-name
+
+TEST LOCALLY FIRST:
+===================
+# Extract the archive
+tar -xzf shame-to-flame-static.tar.gz
+
+# Go to the out directory
+cd out
+
+# Start a local server (choose one):
+python3 -m http.server 8000
+# or
+npx serve .
+
+# Open browser to:
+http://localhost:8000
+
+WHAT'S INCLUDED:
+================
+✓ 15 fully-built HTML pages
+✓ All JavaScript and CSS optimized
+✓ Responsive design (mobile/tablet/desktop)
+✓ Dark mode support
+✓ Video background with fallback gradient
+✓ Contact form integration
+✓ Bible study tools
+✓ Prayer Rock archive
+✓ Service worker for offline support
+
+IMPORTANT: VIDEO FILE
+=====================
+The background video (shame-to-flame.mp4) is in the public/ folder.
+Make sure to upload it along with the out/ folder!
+
+FILE STRUCTURE AFTER EXTRACTION:
+=================================
+out/                    ← Deploy this folder
+├── index.html         ← Homepage
+├── about.html
+├── bible-study.html
+├── contact.html
+├── healing-pathways.html
+├── _next/             ← Next.js assets (auto-included)
+└── [13 more pages]
+
+public/                ← Upload alongside out/
+├── shame-to-flame.mp4 ← Background video
+├── flame-icon.svg     ← Site icon
+├── manifest.json      ← PWA config
+└── sw.js             ← Service worker
+
+TESTING YOUR DEPLOYMENT:
+========================
+After deploying, visit:
+- yoursite.com/test-deployment.html
+
+This will verify everything is working correctly.
+
+NEED HELP?
+==========
+See DEPLOYMENT.md for detailed instructions
+See README.md for project overview
+
+CUSTOMIZE IT:
+=============
+Want to modify the site?
+1. Extract shame-to-flame-complete.tar.gz
+2. Run: npm install
+3. Run: npm run dev
+4. Edit files in src/ and app/
+5. Run: npm run build
+6. Upload new out/ folder
+
+© 2024 Shame to Flame Ministry
+"He heals the brokenhearted and binds up their wounds." - Psalm 147:3

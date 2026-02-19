@@ -1,0 +1,102 @@
+{
+  "subject_id": "temptation",
+  "subject_name": "Temptation & Victory",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "temptation_01",
+      "text": "Is there a temptation that seems to follow you no matter what?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "1 Corinthians 10:13",
+      "verse_text": "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
+      "follow_up_hints": ["Common to all", "Way of escape", "God is faithful"]
+    },
+    {
+      "id": "temptation_02",
+      "text": "When are you most vulnerable to temptation?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "1 Peter 5:8",
+      "verse_text": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour.",
+      "follow_up_hints": ["Identify vulnerable times", "Be vigilant", "Enemy seeks to devour"]
+    },
+    {
+      "id": "temptation_03",
+      "text": "What usually happens right before you give in?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "James 1:14-15",
+      "verse_text": "But every man is tempted, when he is drawn away of his own lust, and enticed. Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death.",
+      "follow_up_hints": ["Pattern recognition", "Drawn away and enticed", "Break the cycle early"]
+    },
+    {
+      "id": "temptation_04",
+      "text": "Have you found any strategies that help you resist?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Ephesians 6:11",
+      "verse_text": "Put on the whole armour of God, that ye may be able to stand against the wiles of the devil.",
+      "follow_up_hints": ["Build on what works", "Whole armor", "Stand against wiles"]
+    },
+    {
+      "id": "temptation_05",
+      "text": "Do you know why this particular temptation has such a hold?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Hebrews 12:1",
+      "verse_text": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us.",
+      "follow_up_hints": ["Root understanding", "Easily besetting sin", "Lay it aside"]
+    },
+    {
+      "id": "temptation_06",
+      "text": "How does Jesus's temptation in the wilderness encourage you?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Hebrews 4:15",
+      "verse_text": "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.",
+      "follow_up_hints": ["Jesus understands", "Tempted in all points", "Yet without sin - shows it's possible"]
+    },
+    {
+      "id": "temptation_07",
+      "text": "What Scripture could be your weapon when temptation comes?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Matthew 4:4",
+      "verse_text": "But he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.",
+      "follow_up_hints": ["Word as weapon", "It is written", "Jesus's example"]
+    },
+    {
+      "id": "temptation_08",
+      "text": "Is there someone who could pray with you or hold you accountable?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "James 5:16",
+      "verse_text": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
+      "follow_up_hints": ["Accountability helps", "Confession and prayer", "Healing through community"]
+    },
+    {
+      "id": "temptation_09",
+      "text": "What would victory in this area look like for you?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Romans 8:37",
+      "verse_text": "Nay, in all these things we are more than conquerors through him that loved us.",
+      "follow_up_hints": ["Envision victory", "More than conquerors", "Through His love"]
+    },
+    {
+      "id": "temptation_10",
+      "text": "Would you like to claim God's power over this temptation together?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Romans 6:14",
+      "verse_text": "For sin shall not have dominion over you: for ye are not under the law, but under grace.",
+      "follow_up_hints": ["Claiming victory", "No dominion", "Under grace"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["temptation_01", "temptation_06"],
+    "victory_emphasis": ["temptation_09", "temptation_10"]
+  }
+}

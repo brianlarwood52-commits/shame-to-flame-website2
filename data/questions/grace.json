@@ -1,0 +1,102 @@
+{
+  "subject_id": "grace",
+  "subject_name": "Grace & Mercy",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "grace_01",
+      "text": "How would you explain God's grace in your own words?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "Ephesians 2:8-9",
+      "verse_text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast.",
+      "follow_up_hints": ["Their understanding matters", "Gift not earned", "By grace through faith"]
+    },
+    {
+      "id": "grace_02",
+      "text": "Is it easier for you to believe God's grace is for others than for yourself?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Romans 5:20",
+      "verse_text": "Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound.",
+      "follow_up_hints": ["Common struggle", "Grace MUCH MORE abounds", "It's for you too"]
+    },
+    {
+      "id": "grace_03",
+      "text": "When have you experienced grace from another person that surprised you?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "Colossians 3:13",
+      "verse_text": "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.",
+      "follow_up_hints": ["Human grace reflects divine", "As Christ forgave", "Receive and give"]
+    },
+    {
+      "id": "grace_04",
+      "text": "Do you sometimes try to earn what God freely gives?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Galatians 2:21",
+      "verse_text": "I do not frustrate the grace of God: for if righteousness come by the law, then Christ is dead in vain.",
+      "follow_up_hints": ["Performance mindset", "Don't frustrate grace", "Christ's death sufficient"]
+    },
+    {
+      "id": "grace_05",
+      "text": "What would change if you truly lived like grace was sufficient?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "2 Corinthians 12:9",
+      "verse_text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.",
+      "follow_up_hints": ["Grace IS sufficient", "Strength in weakness", "Glory in weakness"]
+    },
+    {
+      "id": "grace_06",
+      "text": "How do you respond when you fail - with shame or with grace toward yourself?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Hebrews 4:16",
+      "verse_text": "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need.",
+      "follow_up_hints": ["Self-response matters", "Come boldly", "Grace in time of need"]
+    },
+    {
+      "id": "grace_07",
+      "text": "Is there an area of your life where you struggle to receive God's mercy?",
+      "tier": "standard",
+      "value": -1,
+      "verse_reference": "Lamentations 3:22-23",
+      "verse_text": "It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.",
+      "follow_up_hints": ["Specific areas", "Mercies new every morning", "Compassions fail not"]
+    },
+    {
+      "id": "grace_08",
+      "text": "How does understanding grace change the way you see your mistakes?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Romans 8:1",
+      "verse_text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
+      "follow_up_hints": ["Grace reframes failure", "No condemnation", "In Christ Jesus"]
+    },
+    {
+      "id": "grace_09",
+      "text": "Who in your life needs to receive grace from you?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Matthew 10:8",
+      "verse_text": "Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give.",
+      "follow_up_hints": ["Giving grace", "Freely received", "Freely give"]
+    },
+    {
+      "id": "grace_10",
+      "text": "Would you like to receive a fresh word of grace right now?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "Titus 2:11",
+      "verse_text": "For the grace of God that bringeth salvation hath appeared to all men.",
+      "follow_up_hints": ["Receiving moment", "Grace appeared", "Salvation brought"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "growth", "growth"],
+    "crisis_fallback": ["grace_01", "grace_02"],
+    "victory_emphasis": ["grace_05", "grace_10"]
+  }
+}

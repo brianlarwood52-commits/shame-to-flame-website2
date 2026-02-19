@@ -1,0 +1,102 @@
+{
+  "subject_id": "hope",
+  "subject_name": "Hope & Future",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "hope_01",
+      "text": "What does hope look like to you right now?",
+      "tier": "gentle",
+      "value": 1,
+      "verse_reference": "Romans 15:13",
+      "verse_text": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.",
+      "follow_up_hints": ["Let them define hope", "God OF hope", "Abounding is possible"]
+    },
+    {
+      "id": "hope_02",
+      "text": "Is there something you've stopped hoping for? Something that feels impossible?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Luke 1:37",
+      "verse_text": "For with God nothing shall be impossible.",
+      "follow_up_hints": ["Safe to admit lost hopes", "Nothing impossible with God", "Don't fix, just acknowledge"]
+    },
+    {
+      "id": "hope_03",
+      "text": "When you imagine your future, what do you see?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Jeremiah 29:11",
+      "verse_text": "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil, to give you an expected end.",
+      "follow_up_hints": ["Their vision matters", "God's thoughts of peace", "Expected end - hope ahead"]
+    },
+    {
+      "id": "hope_04",
+      "text": "What is one small thing you're looking forward to, even if it seems silly?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "Psalm 27:13",
+      "verse_text": "I had fainted, unless I had believed to see the goodness of the LORD in the land of the living.",
+      "follow_up_hints": ["Small hopes matter", "Goodness in the land of the living", "Present-tense hope"]
+    },
+    {
+      "id": "hope_05",
+      "text": "Has there been a time when things seemed hopeless but God surprised you?",
+      "tier": "standard",
+      "value": 3,
+      "verse_reference": "Psalm 40:1-2",
+      "verse_text": "I waited patiently for the LORD; and he inclined unto me, and heard my cry. He brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a rock, and established my goings.",
+      "follow_up_hints": ["Draw on their testimony", "Horrible pit to solid rock", "God heard and acted"]
+    },
+    {
+      "id": "hope_06",
+      "text": "What dreams has God placed in your heart that you've been afraid to pursue?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Psalm 37:4",
+      "verse_text": "Delight thyself also in the LORD; and he shall give thee the desires of thine heart.",
+      "follow_up_hints": ["God-given desires", "Delight leads to desires", "Dreams matter to God"]
+    },
+    {
+      "id": "hope_07",
+      "text": "If God could restore one area of your life, which would you choose?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Joel 2:25",
+      "verse_text": "And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpillar, and the palmerworm, my great army which I sent among you.",
+      "follow_up_hints": ["God of restoration", "Years, not just things", "His great army of restoration"]
+    },
+    {
+      "id": "hope_08",
+      "text": "How does knowing God has a plan for you affect your view of tomorrow?",
+      "tier": "standard",
+      "value": 2,
+      "verse_reference": "Proverbs 3:5-6",
+      "verse_text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.",
+      "follow_up_hints": ["Trust over understanding", "He directs paths", "All thy ways"]
+    },
+    {
+      "id": "hope_09",
+      "text": "What would you attempt if you knew you couldn't fail?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Philippians 4:13",
+      "verse_text": "I can do all things through Christ which strengtheneth me.",
+      "follow_up_hints": ["Remove fear barrier", "All things through Christ", "Strength provided"]
+    },
+    {
+      "id": "hope_10",
+      "text": "Can you speak a blessing over your own future right now?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "Numbers 6:24-26",
+      "verse_text": "The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee: The LORD lift up his countenance upon thee, and give thee peace.",
+      "follow_up_hints": ["Speaking hope aloud", "Priestly blessing for themselves", "God's face shining"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "growth", "growth"],
+    "crisis_fallback": ["hope_01", "hope_04"],
+    "victory_emphasis": ["hope_09", "hope_10"]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "subject_id": "anger",
+  "subject_name": "Anger & Bitterness",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "anger_01",
+      "text": "What situation or person makes you feel the most anger right now?",
+      "tier": "gentle",
+      "value": -2,
+      "verse_reference": "James 1:19",
+      "verse_text": "Wherefore, my beloved brethren, let every man be swift to hear, slow to speak, slow to wrath.",
+      "follow_up_hints": ["Safe to express", "Swift to hear them", "Slow to respond"]
+    },
+    {
+      "id": "anger_02",
+      "text": "Do you feel like your anger is justified? Tell me more about that.",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Ephesians 4:26",
+      "verse_text": "Be ye angry, and sin not: let not the sun go down upon your wrath.",
+      "follow_up_hints": ["Anger can be righteous", "It's the sin not part", "Don't let it linger"]
+    },
+    {
+      "id": "anger_03",
+      "text": "Underneath the anger, what other emotions might be hiding?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Proverbs 14:29",
+      "verse_text": "He that is slow to wrath is of great understanding: but he that is hasty of spirit exalteth folly.",
+      "follow_up_hints": ["Anger often masks pain", "Understanding beneath", "Slow down to see"]
+    },
+    {
+      "id": "anger_04",
+      "text": "Has your anger ever hurt someone you love? How did that feel afterward?",
+      "tier": "standard",
+      "value": -2,
+      "verse_reference": "Proverbs 15:1",
+      "verse_text": "A soft answer turneth away wrath: but grievous words stir up anger.",
+      "follow_up_hints": ["Regret is common", "Soft answer alternative", "Breaking the cycle"]
+    },
+    {
+      "id": "anger_05",
+      "text": "Is there something you're angry at God about?",
+      "tier": "standard",
+      "value": -2,
+      "verse_reference": "Psalm 13:1-2",
+      "verse_text": "How long wilt thou forget me, O LORD? for ever? how long wilt thou hide thy face from me? How long shall I take counsel in my soul, having sorrow in my heart daily?",
+      "follow_up_hints": ["David expressed this", "Honest with God is okay", "He can handle it"]
+    },
+    {
+      "id": "anger_06",
+      "text": "What would peace look like in the situation that's making you angry?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "Romans 12:18",
+      "verse_text": "If it be possible, as much as lieth in you, live peaceably with all men.",
+      "follow_up_hints": ["Envision resolution", "As much as lies in you", "Some things aren't in our control"]
+    },
+    {
+      "id": "anger_07",
+      "text": "Is there a boundary you need to set that would help reduce this anger?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "Proverbs 22:24-25",
+      "verse_text": "Make no friendship with an angry man; and with a furious man thou shalt not go: Lest thou learn his ways, and get a snare to thy soul.",
+      "follow_up_hints": ["Boundaries are biblical", "Protect your soul", "Healthy distance"]
+    },
+    {
+      "id": "anger_08",
+      "text": "Have you ever felt righteous anger - anger at injustice? How is that different?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Mark 3:5",
+      "verse_text": "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man, Stretch forth thine hand.",
+      "follow_up_hints": ["Jesus experienced anger", "Grieved by hard hearts", "Anger led to healing action"]
+    },
+    {
+      "id": "anger_09",
+      "text": "What would it take for you to release this anger to God?",
+      "tier": "growth",
+      "value": 3,
+      "verse_reference": "Psalm 37:8",
+      "verse_text": "Cease from anger, and forsake wrath: fret not thyself in any wise to do evil.",
+      "follow_up_hints": ["Letting go is a choice", "Fret leads to evil", "Cease and forsake"]
+    },
+    {
+      "id": "anger_10",
+      "text": "If you could speak to the person you're angry at without consequences, what would you say?",
+      "tier": "gentle",
+      "value": 0,
+      "verse_reference": "Colossians 4:6",
+      "verse_text": "Let your speech be alway with grace, seasoned with salt, that ye may know how ye ought to answer every man.",
+      "follow_up_hints": ["Safe venting space", "Grace-seasoned speech goal", "Processing before speaking"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "standard", "growth"],
+    "crisis_fallback": ["anger_01", "anger_02"],
+    "victory_emphasis": ["anger_06", "anger_09"]
+  }
+}

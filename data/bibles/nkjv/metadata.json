@@ -1,0 +1,12 @@
+﻿{
+  "version": "nkjv",
+  "name": "New King James Version",
+  "abbreviation": "NKJV",
+  "language": "en",
+  "year": 1982,
+  "description": "The New King James Version is a modern translation of the Bible, updating the vocabulary and grammar of the King James Version while preserving the classic style.",
+  "copyright": "Copyright 1982 Thomas Nelson",
+  "isComplete": false,
+  "booksAvailable": ["john"],
+  "lastUpdated": "2026-01-31"
+}

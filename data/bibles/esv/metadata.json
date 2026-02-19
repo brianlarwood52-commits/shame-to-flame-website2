@@ -1,0 +1,12 @@
+﻿{
+  "version": "esv",
+  "name": "English Standard Version",
+  "abbreviation": "ESV",
+  "language": "en",
+  "year": 2001,
+  "description": "The English Standard Version is an essentially literal translation that seeks as far as possible to reproduce the precise wording of the original text.",
+  "copyright": "Copyright 2001 Crossway",
+  "isComplete": false,
+  "booksAvailable": ["john"],
+  "lastUpdated": "2026-01-31"
+}

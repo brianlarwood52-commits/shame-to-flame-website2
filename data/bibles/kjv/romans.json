@@ -1,0 +1,33 @@
+﻿{
+  "book": "romans",
+  "name": "Romans",
+  "version": "kjv",
+  "versionName": "King James Version",
+  "chapters": {
+    "3": {
+      "23": "For all have sinned, and come short of the glory of God;"
+    },
+    "5": {
+      "8": "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us."
+    },
+    "6": {
+      "23": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord."
+    },
+    "8": {
+      "28": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+      "38": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come,",
+      "39": "Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord."
+    },
+    "10": {
+      "9": "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.",
+      "10": "For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation."
+    },
+    "12": {
+      "1": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.",
+      "2": "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."
+    }
+  },
+  "totalChapters": 16,
+  "isComplete": false,
+  "sampleOnly": true
+}

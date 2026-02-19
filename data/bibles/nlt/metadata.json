@@ -1,0 +1,12 @@
+﻿{
+  "version": "nlt",
+  "name": "New Living Translation",
+  "abbreviation": "NLT",
+  "language": "en",
+  "year": 1996,
+  "description": "The New Living Translation is a thought-for-thought translation that uses modern English to communicate the meaning of the Bible text to contemporary readers.",
+  "copyright": "Copyright 1996 Tyndale House Foundation",
+  "isComplete": false,
+  "booksAvailable": ["john"],
+  "lastUpdated": "2026-01-31"
+}

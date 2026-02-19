@@ -1,0 +1,219 @@
+================================================================================
+                         ARCHIVED FEATURES & SECTIONS
+           Shame to Flame Ministry Website - Feature Archive Log
+================================================================================
+
+This document tracks all features and sections that have been archived during
+development. When the time is right to reintroduce them, this file provides
+the complete context and code needed for restoration.
+
+Last Updated: December 13, 2025
+
+================================================================================
+                            TABLE OF CONTENTS
+================================================================================
+
+1. Contact Page - Prayer Line & Crisis Support Cards
+2. Ministry Hub - How We Work Together Section
+3. Ministry Hub - Join Our Ministry Network Section
+4. Ministry Hub - Collective Impact Statistics
+
+================================================================================
+1. CONTACT PAGE - PRAYER LINE & CRISIS SUPPORT CARDS
+================================================================================
+
+DATE ARCHIVED: December 7, 2025
+LOCATION: archived-sections/contact-page-prayer-and-crisis-cards.md
+ORIGINAL FILE: Contact.tsx (contact page)
+STATUS: Archived - Not currently operational
+
+REASON FOR ARCHIVING:
+- Ministry doesn't currently have a dedicated prayer line phone number
+- Ministry doesn't provide direct crisis support services
+- Instead, the site now links to external crisis resources
+
+WHAT WAS REMOVED:
+- Prayer Line card with phone number (1-800-HOPE-NOW placeholder)
+- Crisis Support card with 24/7 crisis line
+- Direct service promises that aren't currently available
+
+RESTORATION REQUIREMENTS:
+When ready to restore, you will need:
+1. Actual prayer line phone number established
+2. Trained prayer partners to staff the line
+3. Schedule/hours of availability
+4. Crisis support protocols and trained staff (or decide to keep external links)
+
+CODE LOCATION: See archived-sections/contact-page-prayer-and-crisis-cards.md
+DEPENDENCIES: lucide-react (Phone, Heart icons)
+
+
+================================================================================
+2. MINISTRY HUB - HOW WE WORK TOGETHER SECTION
+================================================================================
+
+DATE ARCHIVED: December 6, 2025
+LOCATION: archived-sections/how-we-work-together-section.md
+ORIGINAL FILE: MinistryHub.tsx
+STATUS: Archived - Future feature
+
+REASON FOR ARCHIVING:
+- Ministry network not yet established
+- No current partner ministries to showcase
+- Feature planned for future when partnerships are active
+
+WHAT WAS REMOVED:
+A complete section explaining ministry collaboration including:
+- Shared Resources card
+- Referral Network card
+- Collaborative Training card
+
+RESTORATION REQUIREMENTS:
+When ready to restore, you will need:
+1. Actual partner ministries established
+2. Shared resources and materials developed
+3. Referral processes and protocols in place
+4. Training programs created and scheduled
+
+VISUAL DESIGN:
+- 3-column grid layout with icon cards
+- Gradient background (sky to flame)
+- Icons: Users, Heart, Book
+
+CODE LOCATION: See archived-sections/how-we-work-together-section.md
+DEPENDENCIES: lucide-react (Users, Heart, Book icons)
+
+
+================================================================================
+3. MINISTRY HUB - JOIN OUR MINISTRY NETWORK SECTION
+================================================================================
+
+DATE ARCHIVED: December 6, 2025
+LOCATION: archived-sections/ministry-network-section.md
+ORIGINAL FILE: MinistryHub.tsx
+STATUS: Archived - Future feature
+
+REASON FOR ARCHIVING:
+- Not actively recruiting partner ministries yet
+- Partnership criteria and processes not finalized
+- Vetting and oversight systems not established
+
+WHAT WAS REMOVED:
+A comprehensive partnership application section including:
+- Partnership criteria list (4 requirements)
+- Partnership benefits list (4 benefits)
+- "Apply for Partnership" call-to-action button
+- Explanation of collaboration model
+
+PARTNERSHIP CRITERIA LISTED:
+1. Biblical foundation and Christ-centered approach
+2. Trauma-informed care practices
+3. Commitment to safety and confidentiality
+4. Professional accountability and oversight
+
+PARTNERSHIP BENEFITS LISTED:
+1. Shared resources and training materials
+2. Cross-referral opportunities
+3. Collaborative training programs
+4. Increased reach and impact
+
+RESTORATION REQUIREMENTS:
+When ready to restore, you will need:
+1. Partnership application form/process
+2. Vetting procedures for potential partners
+3. Legal agreements or MOUs drafted
+4. Oversight and accountability structures
+5. Shared resource library established
+
+CODE LOCATION: See archived-sections/ministry-network-section.md (lines 1-79)
+DEPENDENCIES: lucide-react (Globe, ArrowRight icons)
+
+
+================================================================================
+4. MINISTRY HUB - COLLECTIVE IMPACT STATISTICS SECTION
+================================================================================
+
+DATE ARCHIVED: December 6, 2025
+LOCATION: archived-sections/ministry-network-section.md (lines 82-115)
+ORIGINAL FILE: MinistryHub.tsx
+STATUS: Archived - Future feature
+
+REASON FOR ARCHIVING:
+- Statistics shown were placeholder/aspirational numbers
+- Ministry network doesn't exist yet to generate these metrics
+- Displaying unverified statistics would be misleading
+
+WHAT WAS REMOVED:
+A statistics dashboard section showing:
+- "2,500+ Lives Touched"
+- "150+ Healing Programs"
+- "50+ Trained Counselors"
+- "24/7 Support Available"
+
+Plus inspirational text about collective ministry impact.
+
+RESTORATION REQUIREMENTS:
+When ready to restore, you will need:
+1. Actual verified statistics from ministry operations
+2. Tracking systems for measuring impact
+3. Partner ministry reporting/metrics
+4. Regular updates process to keep numbers current
+
+VISUAL DESIGN:
+- Dark background (gray-900/black)
+- 4-column grid layout
+- Large flame/sky/sage/yellow colored numbers
+- White text descriptions
+
+CODE LOCATION: See archived-sections/ministry-network-section.md (lines 82-115)
+DEPENDENCIES: None (pure HTML/Tailwind)
+
+
+================================================================================
+                         NOTES FOR FUTURE RESTORATION
+================================================================================
+
+GENERAL GUIDANCE:
+- All archived code uses the same design system (Tailwind CSS classes)
+- Icon dependencies are from lucide-react package (already installed)
+- Color scheme follows site standards: flame, sky, sage palettes
+- All sections are fully responsive (mobile-first design)
+
+TESTING CHECKLIST WHEN RESTORING:
+[ ] Update placeholder content with real data
+[ ] Test responsive design on mobile/tablet/desktop
+[ ] Verify all links and buttons work
+[ ] Check dark mode appearance
+[ ] Ensure icons render correctly
+[ ] Validate accessibility (screen readers, keyboard navigation)
+[ ] Update any stale references or deprecated code
+
+PRIORITY ORDER FOR RESTORATION:
+1. Contact Page Cards - When phone line established
+2. How We Work Together - When first partners join
+3. Join Network Section - When ready to recruit partners
+4. Impact Statistics - When metrics tracking implemented
+
+
+================================================================================
+                            ADDITIONAL NOTES
+================================================================================
+
+All archived sections maintain the ministry's visual identity:
+- Serif fonts (Crimson Text) for headings
+- Sans-serif (Inter) for body text
+- Warm color palette focused on flame orange and sky blue
+- Trauma-informed, compassionate tone
+- Scripture-based, Christ-centered messaging
+
+The archived code is production-ready and simply needs:
+1. Real content to replace placeholders
+2. Working backend systems/services
+3. Integration testing after restoration
+
+For questions about restoration or implementation details, refer to the
+specific .md files in the archived-sections/ directory.
+
+================================================================================
+END OF ARCHIVE LOG
+================================================================================

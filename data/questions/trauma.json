@@ -1,0 +1,104 @@
+{
+  "subject_id": "trauma",
+  "subject_name": "Trauma & Wounds",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "trauma_01",
+      "text": "Is there something from your past that still affects you today?",
+      "tier": "gentle",
+      "value": -3,
+      "verse_reference": "Psalm 34:18",
+      "verse_text": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.",
+      "follow_up_hints": ["No pressure to share details", "God is near", "Safe space"]
+    },
+    {
+      "id": "trauma_02",
+      "text": "Do you feel safe talking about difficult experiences, even a little?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Psalm 46:1",
+      "verse_text": "God is our refuge and strength, a very present help in trouble.",
+      "follow_up_hints": ["Safety first", "Very present help", "Refuge available"]
+    },
+    {
+      "id": "trauma_03",
+      "text": "What does healing look like for you - what would change?",
+      "tier": "gentle",
+      "value": 1,
+      "verse_reference": "Jeremiah 30:17",
+      "verse_text": "For I will restore health unto thee, and I will heal thee of thy wounds, saith the LORD; because they called thee an Outcast, saying, This is Zion, whom no man seeketh after.",
+      "follow_up_hints": ["Envision restoration", "Health restored", "Wounds healed"]
+    },
+    {
+      "id": "trauma_04",
+      "text": "Have you been able to share your story with anyone safe?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "Galatians 6:2",
+      "verse_text": "Bear ye one another's burdens, and so fulfil the law of Christ.",
+      "follow_up_hints": ["Connection matters", "Burden bearing", "Professional help is good"]
+    },
+    {
+      "id": "trauma_05",
+      "text": "Is there anger or unforgiveness connected to what happened?",
+      "tier": "standard",
+      "value": -2,
+      "verse_reference": "Romans 12:19",
+      "verse_text": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.",
+      "follow_up_hints": ["Anger is valid", "Vengeance is God's", "Release to Him"]
+    },
+    {
+      "id": "trauma_06",
+      "text": "Do you sometimes feel like you should be 'over it' by now?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Isaiah 42:3",
+      "verse_text": "A bruised reed shall he not break, and the smoking flax shall he not quench: he shall bring forth judgment unto truth.",
+      "follow_up_hints": ["No timeline for healing", "Bruised reeds protected", "Gentle Savior"]
+    },
+    {
+      "id": "trauma_07",
+      "text": "What helps you feel grounded when painful memories surface?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Psalm 18:2",
+      "verse_text": "The LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.",
+      "follow_up_hints": ["Coping strategies", "Rock and fortress", "Place of safety"]
+    },
+    {
+      "id": "trauma_08",
+      "text": "Can you believe that what happened was not your fault?",
+      "tier": "standard",
+      "value": 1,
+      "verse_reference": "Isaiah 61:7",
+      "verse_text": "For your shame ye shall have double; and for confusion they shall rejoice in their portion: therefore in their land they shall possess the double: everlasting joy shall be unto them.",
+      "follow_up_hints": ["Shame displaced", "Double restoration", "Everlasting joy coming"]
+    },
+    {
+      "id": "trauma_09",
+      "text": "How can I pray for you in this healing journey?",
+      "tier": "growth",
+      "value": 2,
+      "verse_reference": "James 5:16",
+      "verse_text": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
+      "follow_up_hints": ["Let them guide prayer", "Prayer for healing", "Fervent prayer works"]
+    },
+    {
+      "id": "trauma_10",
+      "text": "Would you like to sit quietly together and let God's presence bring comfort?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "2 Corinthians 1:3-4",
+      "verse_text": "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; Who comforteth us in all our tribulation.",
+      "follow_up_hints": ["Presence ministry", "Father of mercies", "God of ALL comfort"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "gentle", "standard", "gentle"],
+    "crisis_fallback": ["trauma_01", "trauma_10"],
+    "victory_emphasis": ["trauma_03", "trauma_09"],
+    "special_note": "Trauma sessions require extra gentleness. Never push for details. Always validate. Recommend professional support."
+  },
+  "professional_resources_note": "Always encourage professional trauma-informed care. This tool supplements but does not replace therapy."
+}

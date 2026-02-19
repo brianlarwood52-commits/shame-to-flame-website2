@@ -1,0 +1,246 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-31",
+  "subjects": [
+    {
+      "id": "forgiveness",
+      "name": "Forgiveness",
+      "description": "Finding freedom through releasing hurt and embracing divine mercy",
+      "icon": "heart-handshake",
+      "base_value": 0,
+      "tier_appropriate": ["all"],
+      "keywords": ["forgive", "let go", "grudge", "resentment", "mercy", "pardon"],
+      "related_subjects": ["healing", "restoration", "grace"]
+    },
+    {
+      "id": "shame",
+      "name": "Shame",
+      "description": "Breaking free from the weight of shame through Christ's unconditional love",
+      "icon": "shield-off",
+      "base_value": -3,
+      "tier_appropriate": ["bad", "depressed", "neutral"],
+      "keywords": ["ashamed", "embarrassed", "unworthy", "disgrace", "humiliated"],
+      "related_subjects": ["identity", "grace", "redemption"]
+    },
+    {
+      "id": "grief",
+      "name": "Grief",
+      "description": "Walking through loss with the Comforter by your side",
+      "icon": "cloud-rain",
+      "base_value": -5,
+      "tier_appropriate": ["bad", "depressed", "neutral"],
+      "keywords": ["loss", "mourning", "death", "missing", "bereavement", "sorrow"],
+      "related_subjects": ["hope", "peace", "healing"]
+    },
+    {
+      "id": "hope",
+      "name": "Hope",
+      "description": "Anchoring your soul in the promises of God",
+      "icon": "sunrise",
+      "base_value": 3,
+      "tier_appropriate": ["all"],
+      "keywords": ["hopeful", "future", "promise", "expectation", "looking forward"],
+      "related_subjects": ["faith", "joy", "peace"]
+    },
+    {
+      "id": "grace",
+      "name": "Grace",
+      "description": "Discovering the unmerited favor that transforms everything",
+      "icon": "gift",
+      "base_value": 2,
+      "tier_appropriate": ["all"],
+      "keywords": ["undeserved", "favor", "kindness", "blessing", "unmerited"],
+      "related_subjects": ["forgiveness", "redemption", "love"]
+    },
+    {
+      "id": "healing",
+      "name": "Healing",
+      "description": "Experiencing restoration in body, mind, and spirit",
+      "icon": "heart-pulse",
+      "base_value": 0,
+      "tier_appropriate": ["all"],
+      "keywords": ["heal", "restore", "recover", "whole", "mend", "wounded"],
+      "related_subjects": ["hope", "faith", "restoration"]
+    },
+    {
+      "id": "trust",
+      "name": "Trust",
+      "description": "Learning to lean on God when understanding fails",
+      "icon": "anchor",
+      "base_value": 0,
+      "tier_appropriate": ["all"],
+      "keywords": ["rely", "depend", "believe", "confidence", "betrayed", "doubt"],
+      "related_subjects": ["faith", "peace", "fear"]
+    },
+    {
+      "id": "peace",
+      "name": "Peace",
+      "description": "Finding calm in the midst of life's storms",
+      "icon": "dove",
+      "base_value": 2,
+      "tier_appropriate": ["all"],
+      "keywords": ["calm", "tranquil", "rest", "still", "anxiety", "worry"],
+      "related_subjects": ["trust", "joy", "hope"]
+    },
+    {
+      "id": "joy",
+      "name": "Joy",
+      "description": "Discovering lasting joy that transcends circumstances",
+      "icon": "sparkles",
+      "base_value": 5,
+      "tier_appropriate": ["good", "happy", "neutral"],
+      "keywords": ["happy", "rejoice", "delight", "gladness", "celebrate"],
+      "related_subjects": ["gratitude", "hope", "peace"]
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "description": "Understanding and experiencing the boundless love of God",
+      "icon": "heart",
+      "base_value": 3,
+      "tier_appropriate": ["all"],
+      "keywords": ["loved", "beloved", "cherished", "unloved", "rejected", "affection"],
+      "related_subjects": ["grace", "identity", "forgiveness"]
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "description": "Overcoming fear through faith in God's presence and protection",
+      "icon": "shield",
+      "base_value": -2,
+      "tier_appropriate": ["bad", "neutral", "depressed"],
+      "keywords": ["afraid", "scared", "anxious", "terrified", "worried", "panic"],
+      "related_subjects": ["trust", "peace", "faith"]
+    },
+    {
+      "id": "anger",
+      "name": "Anger",
+      "description": "Processing anger in healthy ways through biblical wisdom",
+      "icon": "flame",
+      "base_value": -2,
+      "tier_appropriate": ["bad", "neutral"],
+      "keywords": ["mad", "frustrated", "rage", "bitter", "resentful", "upset"],
+      "related_subjects": ["forgiveness", "peace", "healing"]
+    },
+    {
+      "id": "loneliness",
+      "name": "Loneliness",
+      "description": "Finding companionship in Christ when isolation weighs heavy",
+      "icon": "user-minus",
+      "base_value": -4,
+      "tier_appropriate": ["bad", "depressed", "neutral"],
+      "keywords": ["alone", "isolated", "abandoned", "forgotten", "friendless"],
+      "related_subjects": ["love", "identity", "hope"]
+    },
+    {
+      "id": "purpose",
+      "name": "Purpose",
+      "description": "Discovering God's unique calling for your life",
+      "icon": "compass",
+      "base_value": 1,
+      "tier_appropriate": ["all"],
+      "keywords": ["meaning", "direction", "calling", "mission", "why", "destiny"],
+      "related_subjects": ["identity", "hope", "faith"]
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "description": "Knowing who you truly are as a child of God",
+      "icon": "fingerprint",
+      "base_value": 0,
+      "tier_appropriate": ["all"],
+      "keywords": ["who am i", "worth", "value", "self", "belong", "accepted"],
+      "related_subjects": ["love", "purpose", "shame"]
+    },
+    {
+      "id": "restoration",
+      "name": "Restoration",
+      "description": "Experiencing God's power to rebuild what was broken",
+      "icon": "refresh-cw",
+      "base_value": 2,
+      "tier_appropriate": ["all"],
+      "keywords": ["restore", "rebuild", "renew", "recover", "return", "repair"],
+      "related_subjects": ["healing", "redemption", "hope"]
+    },
+    {
+      "id": "redemption",
+      "name": "Redemption",
+      "description": "The powerful story of being bought back by divine love",
+      "icon": "key",
+      "base_value": 3,
+      "tier_appropriate": ["all"],
+      "keywords": ["redeemed", "saved", "rescued", "bought", "freed", "liberated"],
+      "related_subjects": ["grace", "forgiveness", "restoration"]
+    },
+    {
+      "id": "faith",
+      "name": "Faith",
+      "description": "Building unshakeable trust in God's promises",
+      "icon": "mountain",
+      "base_value": 2,
+      "tier_appropriate": ["all"],
+      "keywords": ["believe", "trust", "doubt", "wavering", "confident", "assurance"],
+      "related_subjects": ["hope", "trust", "prayer"]
+    },
+    {
+      "id": "prayer",
+      "name": "Prayer",
+      "description": "Deepening your conversation with the Creator",
+      "icon": "message-circle",
+      "base_value": 1,
+      "tier_appropriate": ["all"],
+      "keywords": ["pray", "talk to god", "communicate", "petition", "intercede"],
+      "related_subjects": ["faith", "peace", "gratitude"]
+    },
+    {
+      "id": "gratitude",
+      "name": "Gratitude",
+      "description": "Cultivating a thankful heart in all seasons",
+      "icon": "star",
+      "base_value": 4,
+      "tier_appropriate": ["good", "happy", "neutral"],
+      "keywords": ["thankful", "grateful", "appreciate", "blessed", "thanksgiving"],
+      "related_subjects": ["joy", "peace", "hope"]
+    },
+    {
+      "id": "anxiety",
+      "name": "Anxiety",
+      "description": "Finding rest when your mind races with worry",
+      "icon": "wind",
+      "base_value": -3,
+      "tier_appropriate": ["bad", "depressed", "neutral"],
+      "keywords": ["anxious", "worried", "nervous", "stressed", "overwhelmed", "panic"],
+      "related_subjects": ["peace", "trust", "fear"]
+    },
+    {
+      "id": "strength",
+      "name": "Strength",
+      "description": "Drawing on divine power when your own runs dry",
+      "icon": "zap",
+      "base_value": 2,
+      "tier_appropriate": ["all"],
+      "keywords": ["strong", "weak", "power", "endurance", "tired", "exhausted"],
+      "related_subjects": ["faith", "hope", "healing"]
+    },
+    {
+      "id": "patience",
+      "name": "Patience",
+      "description": "Learning to wait on God's perfect timing",
+      "icon": "hourglass",
+      "base_value": 0,
+      "tier_appropriate": ["all"],
+      "keywords": ["wait", "impatient", "timing", "frustrated", "endure", "persevere"],
+      "related_subjects": ["trust", "faith", "peace"]
+    },
+    {
+      "id": "wisdom",
+      "name": "Wisdom",
+      "description": "Seeking divine guidance for life's decisions",
+      "icon": "lightbulb",
+      "base_value": 1,
+      "tier_appropriate": ["all"],
+      "keywords": ["wise", "discernment", "decision", "guidance", "confused", "direction"],
+      "related_subjects": ["purpose", "faith", "prayer"]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+🔥 SHAME TO FLAME - DEPLOYMENT INSTRUCTIONS 🔥
+===============================================
+
+Your website is 100% ready! Here's how to deploy:
+
+OPTION 1: Netlify Drop (EASIEST - NO COMMANDS!)
+================================================
+1. Go to: https://app.netlify.com/drop
+2. You'll need to get the 'out' folder to your computer
+3. Drag the 'out' folder to the Netlify Drop zone
+4. DONE! Your site is live!
+
+OPTION 2: Netlify CLI (From this terminal)
+===========================================
+Run these commands:
+
+npx netlify-cli login
+# This will open a browser - authorize Netlify
+
+npx netlify-cli deploy --dir=out --prod
+# Follow the prompts to deploy
+
+OPTION 3: GitHub + Netlify (Automatic)
+=======================================
+1. Create a GitHub repository
+2. Push this code to GitHub:
+   git init
+   git add .
+   git commit -m "Shame to Flame website"
+   git branch -M main
+   git remote add origin YOUR_REPO_URL
+   git push -u origin main
+
+3. Go to app.netlify.com
+4. Click "Import from Git"
+5. Select your repository
+6. It will auto-deploy!
+
+OPTION 4: Vercel (Alternative)
+================================
+npx vercel --prod
+# Follow the prompts
+
+WHAT'S READY:
+=============
+✅ 16 HTML pages in out/ folder
+✅ All CSS/JS optimized
+✅ 149 files total
+✅ 2.0MB size
+✅ Responsive design
+✅ Dark mode
+✅ Contact forms
+✅ All features working
+
+YOUR FILES:
+===========
+All your website files are in the 'out' folder:
+- index.html (homepage)
+- about.html
+- my-story.html
+- healing-pathways.html
+- daily-fire.html
+- prayer-rock.html
+- contact.html
+- And 9 more pages!
+
+RECOMMENDED: Use Netlify Drop (Option 1)
+=========================================
+It's the easiest if you can't run commands here.
+Just need to get the 'out' folder to your computer.
+
+© 2024 Shame to Flame Ministry

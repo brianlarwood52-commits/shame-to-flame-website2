@@ -1,0 +1,130 @@
+{
+  "site": "Shame to Flame Ministry",
+  "site_url": "https://shametoflame.faith",
+  "contact_email": "contact@shametoflame.faith",
+  "last_updated": "2024-12-07",
+  "page_version": 1,
+  "forms": [
+    {
+      "name": "Contact Form",
+      "url": "https://shametoflame.faith/contact",
+      "purpose": "General contact, prayer requests, and ministry inquiries",
+      "location": "Main contact page, in section titled 'Send Us a Message'",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text",
+          "required": true,
+          "description": "How you would like to be addressed"
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "required": true,
+          "description": "Your email address for response"
+        },
+        {
+          "name": "requestType",
+          "label": "How Can We Help?",
+          "type": "select",
+          "required": true,
+          "options": [
+            "General Questions",
+            "Prayer Request",
+            "Healing Resources",
+            "Share Your Testimony",
+            "Crisis Support",
+            "Ministry Partnership"
+          ]
+        },
+        {
+          "name": "subject",
+          "label": "Subject",
+          "type": "text",
+          "required": false,
+          "description": "Brief description of your message"
+        },
+        {
+          "name": "message",
+          "label": "Your Message",
+          "type": "textarea",
+          "required": true,
+          "rows": 6,
+          "description": "Your detailed message"
+        }
+      ],
+      "submission": {
+        "method": "Edge function with fallback to email client",
+        "endpoint": "Supabase Edge Function",
+        "fallback": "Opens email client with pre-filled message to contact@shametoflame.faith",
+        "response_time": "24-48 hours typically"
+      }
+    },
+    {
+      "name": "Prayer Request Form",
+      "url": "https://shametoflame.faith/submit-prayer",
+      "purpose": "Submit confidential prayer requests",
+      "location": "Prayer request page, dedicated form for prayer submissions",
+      "fields": [
+        {
+          "name": "isAnonymous",
+          "label": "Submit anonymously",
+          "type": "checkbox",
+          "required": false,
+          "description": "Option to submit prayer request without identifying information"
+        },
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text",
+          "required": true,
+          "conditional": "Not required if isAnonymous is checked",
+          "description": "Your name (optional if anonymous)"
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "required": true,
+          "conditional": "Not required if isAnonymous is checked",
+          "description": "Your email (optional if anonymous)"
+        },
+        {
+          "name": "prayerRequest",
+          "label": "Prayer Request",
+          "type": "textarea",
+          "required": true,
+          "rows": 8,
+          "description": "Your prayer request details"
+        },
+        {
+          "name": "allowSharing",
+          "label": "I give permission for my answered prayer to be shared as a testimony",
+          "type": "checkbox",
+          "required": false,
+          "description": "Permission to share answered prayer as testimony"
+        }
+      ],
+      "submission": {
+        "method": "Edge function with database storage",
+        "endpoint": "Supabase Edge Function",
+        "database": "Stored in Supabase prayer_requests table with RLS policies",
+        "privacy": "All prayer requests are confidential and protected",
+        "response_time": "Personal prayer within 24 hours, response as appropriate"
+      }
+    }
+  ],
+  "additional_resources": {
+    "crisis_resources": "https://shametoflame.faith/crisis-resources.json",
+    "crisis_page": "https://shametoflame.faith/crisis-help",
+    "crisis_page_alternate": "https://shametoflame.faith/contact#emergency"
+  },
+  "html_structure": {
+    "note": "Forms are built with Next.js and use React client-side hydration",
+    "semantic_html": "All forms use proper <form>, <label for=''>, <input id=''> structure",
+    "accessibility": "WCAG compliant with proper ARIA labels and keyboard navigation",
+    "schema_markup": "Contact page includes Schema.org ContactPage structured data"
+  }
+}

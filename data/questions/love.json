@@ -1,0 +1,102 @@
+{
+  "subject_id": "love",
+  "subject_name": "God's Love",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "love_01",
+      "text": "Do you truly believe God loves you personally - not just humanity in general?",
+      "tier": "gentle",
+      "value": 2,
+      "verse_reference": "Jeremiah 31:3",
+      "verse_text": "The LORD hath appeared of old unto me, saying, Yea, I have loved thee with an everlasting love: therefore with lovingkindness have I drawn thee.",
+      "follow_up_hints": ["Personal love", "Everlasting love", "Drawn with lovingkindness"]
+    },
+    {
+      "id": "love_02",
+      "text": "When did you first experience God's love?",
+      "tier": "gentle",
+      "value": 3,
+      "verse_reference": "1 John 4:19",
+      "verse_text": "We love him, because he first loved us.",
+      "follow_up_hints": ["Their story", "He loved first", "Origin of our love"]
+    },
+    {
+      "id": "love_03",
+      "text": "Is there something that makes you feel unlovable?",
+      "tier": "gentle",
+      "value": -1,
+      "verse_reference": "Romans 8:38-39",
+      "verse_text": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+      "follow_up_hints": ["Nothing separates", "Persuaded of love", "Nothing can separate"]
+    },
+    {
+      "id": "love_04",
+      "text": "How do you experience God's love most - through His Word, nature, people, or something else?",
+      "tier": "standard",
+      "value": 3,
+      "verse_reference": "Romans 5:5",
+      "verse_text": "And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.",
+      "follow_up_hints": ["Love languages with God", "Love shed in hearts", "By Holy Spirit"]
+    },
+    {
+      "id": "love_05",
+      "text": "Has someone's love ever helped you understand God's love better?",
+      "tier": "standard",
+      "value": 3,
+      "verse_reference": "1 John 4:12",
+      "verse_text": "No man hath seen God at any time. If we love one another, God dwelleth in us, and his love is perfected in us.",
+      "follow_up_hints": ["Human love reflects divine", "Love one another", "God's love perfected"]
+    },
+    {
+      "id": "love_06",
+      "text": "What does it mean to you that God loved you before you did anything to deserve it?",
+      "tier": "standard",
+      "value": 4,
+      "verse_reference": "Romans 5:8",
+      "verse_text": "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
+      "follow_up_hints": ["Unconditional love", "While yet sinners", "Demonstrated love"]
+    },
+    {
+      "id": "love_07",
+      "text": "How does knowing you're loved change the way you face your day?",
+      "tier": "growth",
+      "value": 4,
+      "verse_reference": "Zephaniah 3:17",
+      "verse_text": "The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.",
+      "follow_up_hints": ["Loved identity", "Rejoices over you", "Sings over you"]
+    },
+    {
+      "id": "love_08",
+      "text": "Is there a way you've struggled to receive love - from God or others?",
+      "tier": "standard",
+      "value": 0,
+      "verse_reference": "1 John 4:16",
+      "verse_text": "And we have known and believed the love that God hath to us. God is love; and he that dwelleth in love dwelleth in God, and God in him.",
+      "follow_up_hints": ["Receiving love", "Known AND believed", "Dwell in love"]
+    },
+    {
+      "id": "love_09",
+      "text": "If you could sit with Jesus and hear Him tell you He loves you, what would that moment be like?",
+      "tier": "growth",
+      "value": 5,
+      "verse_reference": "John 15:9",
+      "verse_text": "As the Father hath loved me, so have I loved you: continue ye in my love.",
+      "follow_up_hints": ["Imagine the moment", "As Father loves Son", "Continue in love"]
+    },
+    {
+      "id": "love_10",
+      "text": "Would you like to hear Scripture speak God's love directly over you right now?",
+      "tier": "growth",
+      "value": 6,
+      "verse_reference": "1 John 3:1",
+      "verse_text": "Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.",
+      "follow_up_hints": ["Receiving moment", "What manner of love", "Called children of God"]
+    }
+  ],
+  "session_flow": {
+    "recommended_order": ["gentle", "gentle", "standard", "growth", "growth"],
+    "crisis_fallback": ["love_01", "love_03"],
+    "victory_emphasis": ["love_09", "love_10"]
+  }
+}

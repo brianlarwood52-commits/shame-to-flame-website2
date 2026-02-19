@@ -1,0 +1,76 @@
+{
+  "site": "Shame to Flame Ministry",
+  "crisis_page_url": "https://shametoflame.faith/crisis-help",
+  "crisis_page_alternate": "https://shametoflame.faith/contact#emergency",
+  "page_version": 1,
+  "emergency_notice": "If you are in immediate danger, call emergency services (000 in Australia, 911 in US)",
+  "crisis_resources": {
+    "united_states": [
+      {
+        "name": "National Suicide Prevention Lifeline",
+        "phone": "988",
+        "description": "24/7 free and confidential support for people in distress",
+        "url": "https://988lifeline.org/",
+        "availability": "24/7"
+      },
+      {
+        "name": "Crisis Text Line",
+        "contact": "Text HOME to 741741",
+        "phone": "741741",
+        "description": "Free 24/7 crisis support via text message",
+        "url": "https://www.crisistextline.org/",
+        "availability": "24/7"
+      }
+    ],
+    "australia": [
+      {
+        "name": "Lifeline Australia",
+        "phone": "13 11 14",
+        "description": "24/7 crisis support and suicide prevention services",
+        "url": "https://www.lifeline.org.au/",
+        "availability": "24/7"
+      },
+      {
+        "name": "Suicide Call Back Service",
+        "phone": "1300 659 467",
+        "description": "24/7 nationwide service for anyone affected by suicide",
+        "url": "https://www.suicidecallbackservice.org.au/",
+        "availability": "24/7"
+      },
+      {
+        "name": "Beyond Blue",
+        "phone": "1300 22 4636",
+        "description": "Mental health support and counseling",
+        "url": "https://www.beyondblue.org.au/",
+        "availability": "24/7"
+      },
+      {
+        "name": "MensLine Australia",
+        "phone": "1300 78 99 78",
+        "description": "Professional telephone and online support for men",
+        "url": "https://mensline.org.au/",
+        "availability": "24/7"
+      },
+      {
+        "name": "Kids Helpline",
+        "phone": "1800 55 1800",
+        "description": "Counselling service for young people aged 5-25",
+        "url": "https://kidshelpline.com.au/",
+        "availability": "24/7",
+        "age_range": "5-25 years"
+      },
+      {
+        "name": "Brave Enough Careline",
+        "phone": "1800 272 838",
+        "description": "Freecall support line",
+        "url": "https://www.braveenough.org/",
+        "availability": "24/7"
+      }
+    ]
+  },
+  "additional_info": {
+    "ministry_contact": "contact@shametoflame.faith",
+    "note": "These services are independent from Shame to Flame Ministry and are included for public support and crisis assistance",
+    "location_on_site": "Crisis resources displayed on dedicated page at https://shametoflame.faith/crisis-help and also on Contact page at https://shametoflame.faith/contact#emergency"
+  }
+}
